@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hi+Melody&family=Nanum+Brush+Script&display=swap');
+
+/* ========공용======== */
+/* 작은 메뉴바 */
+/* .container{
+    position:relative;
+    top:173px;
+} */
+.dot{
+    border:1.5px solid black;
+    display:inline-block;
+    margin: 0px 4px 3px 4px;
+    background-color: black;
+}
+.smallmenuBox > .smallmenu .smallmenuitem{
+    font-size: 14px;
+}
+.smallmenuBox > .smallmenu > .gomain{
+    color:#808080;
+}
+.smallmenuBox > .smallmenu > .gobrand{
+    color:#dc2d5a;
+    font-weight: bolder;
+}
+
+/* ========로스팅플랜트======== */
+/* 바디 */
+.bodycontainer{
+    margin-top:60px;
+    display:block;
+}
+.bodycontainer > .titleArea > .title{
+    font-size:72px;
+    margin-bottom: 64px;
+}
+.bodycontainer > .titleArea > .titleImg > img{
+    /* width:1216px; */
+    width:100%;
+    object-fit: cover;
+}
+.bodycontainer > .titleArea > .subtitle{
+    margin-top:-40px;
+    margin-left: 30px;
+}
+.bodycontainer > .titleArea > .subtitle > b{
+    font-size:52px;
+    /* 기존폰트 Mark Pro는 상업용폰트라서 이걸로 대체했습니다. */
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 0.3px;
+}
+.bodycontainer > .titleArea > .titlecontent{
+    font-size:31.5px;
+    margin: 36px 0px 120px 30px;
+}
+.bodycontainer > .bodyArea1{
+    float:left;
+    height:590px;
+    margin-top: 3px;
+    margin-bottom : 121px;
+}
+.bodycontainer > .bodyArea1 > .contentP{
+    width:50%;
+    display:inline-block;
+    padding-top:170px;
+    padding-right:50px;
+}
+.bodycontainer > .bodyArea1 > .contentP > p{
+    margin-left : 30px;
+    margin-bottom : 35px;
+    font-weight: lighter;
+    line-height: 1.5;
+    word-spacing: 0.8;
+    color : #5e5e5e;
+}
+.bodycontainer > .bodyArea1 > .contentImg{
+    float:right;
+}
+.bodycontainer > .bodyArea1 > .contentImg > img{
+    width:590px;
+    height: 590px;
+    object-fit:cover;
+    z-index: -10000;
+}
+
+.bodycontainer > .bodyArea2{
+    margin-bottom: 100px;
+}
+.bodycontainer > .bodyArea2 > .contentImg{
+    float:left;
+}
+.bodycontainer > .bodyArea2 > .contentImg > img{
+    width: 590px; 
+    height: 590px;
+    object-fit: cover;
+    z-index: -10000;
+}
+
+.bodycontainer > .bodyArea2 > .contentP{
+    float:right;
+    width:50%;
+    padding-top: 115px;
+    padding-left: 48px;
+    padding-right:15px;
+} 
+.bodycontainer > .bodyArea2 > .contentP > p{
+    font-weight: lighter;
+    line-height: 1.5;
+    word-spacing: 0.8;
+    margin-bottom : 29px;
+    color : #5e5e5e;
+}
+
+/* ========디저트플랜트======== */
+.bodycontainer > .bodyAreaDessert{
+    margin-top : -55px;
+}
+.bodycontainer > .bodyAreaDessert > .contentP{
+    padding-left : 30px;
+    padding-right: 30px;
+}
+.bodycontainer > .bodyAreaDessert > .contentP > p{
+    color : #5e5e5e;
+    font-weight: lighter;
+    line-height: 1.5;
+    word-spacing: 0.8;
+    margin-bottom: 35px;
+}
+
+/* ========C&D센터======== */
+.bodycontainer > .titleArea > .CDpic{
+    padding-top:20px !important;
+}
+.bodycontainer > .titleArea > .subtitle .subsubtitle{
+    font-size: 24px;
+}
+.bodycontainer > .bodyAreaTxt{
+    margin-top:-50px;
+    padding: 0px 30px;
+    margin-bottom : 115px;
+}
+.bodycontainer > .bodyAreaTxt {
+    color : #5e5e5e;
+    font-weight: lighter;
+    line-height: 1.5;
+    word-spacing: 0.8;
+}
+.bodycontainer > .bodyAreaCD > .contentP{
+    padding:3px 0px 0px 15px;
+}
+.bodycontainer > .bodyAreaCD > .contentP .dot{
+    border: 1.5px solid #5e5e5e;
+    background-color: #5e5e5e;
+}
+.bodycontainer > .bodyAreaCD > .contentP > p{
+    margin:0px 0px 5px 0px;
+}
+.bodycontainer > .bodyAreaCD > .contentP .bigtxt{
+    font-size:24px;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 19px;
+    margin-top : 34px;
+}
+.bodycontainer > .bodyAreaCD > .contentP .bigtxt:first-child{
+    margin-top:0;
+}
+
+/* ========C&D센터======== */
+.bodycontainer > .titleArea > .SEPtitle{
+    margin-bottom: 65px;
+} 
+.bodycontainer > .bodyAreaSEP > .contentP{
+    padding:3px 0px 0px 15px;
+}
+.bodycontainer > .bodyAreaSEP > .contentP .contenttitle{
+    margin-bottom:33px;
+}
+.bodycontainer > .bodyAreaSEP > .contentP .contenttitle p{
+    font-size: 32px;
+}
+.bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle{
+    margin-bottom:20px;
+}
+.bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle p{
+    font-size:24px;
+}

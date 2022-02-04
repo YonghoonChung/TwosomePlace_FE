@@ -1,0 +1,146 @@
+/* normalizing */
+*{
+    margin:0;
+    padding:0;
+    font-family: "맑은고딕";
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+ul, ol{
+    list-style-type: none;
+}
+html{
+    background-color: #222222;
+    width:100vw;
+    height:100vh;
+}
+/* 로고 */
+.headerBox{
+    width:100%;
+    height:100px;
+    margin-bottom:65px;
+}
+.logoBox{
+    width:22%;
+    height:100px;
+    float:left;
+}
+.logoBox img{
+    margin:35px 0 35px 64px;
+}
+
+/* 메뉴닫기버튼 */
+.menuBtnBox{
+    width:10%;
+    height:100px;
+}
+.menuBtnBox img{
+    position: relative;
+    top: 38px;
+    left:90px;
+}
+/* X버튼 위치조정 */
+.menuBtnBox{
+    float:right;
+    padding-left:15px;
+}
+
+
+/* 메뉴 */
+.menuBox{
+    float:left;
+    width:49%;
+}
+.menuBox > .menuArea .square{
+    color:#222222;
+    font-size: 14px;
+    margin-bottom:-10px;
+    margin-left: 45px;
+}
+.menuBox > .menuArea > .menu{
+    margin-left: 350px;
+}
+.menuBox > .menuArea > .menu > .menuitem{
+    margin-bottom:37px;
+}
+.menuBox > .menuArea > .menu > .menuitem .item{
+    font-size:50px;
+}
+
+/* 서브메뉴 */
+.submenuBox{
+    float:left;
+    width:36%;
+}
+.submenuBox > .submenu .subsubmenu > .subsubmenuitem .item{
+    color: #ccccc1;
+}
+.submenuBox > .submenu{
+    padding-top: 35px;
+    padding-left: 10px;
+    height:650px;
+}
+.submenuBox > .submenu .item{
+    font-size: 32px;
+}
+.submenuBox > .submenu > .submenuitemBox  > ul > li {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.submenuBox > .submenu > .submenuitemBox  > ul > li:first-child{
+    margin-top:0px;
+}
+.submenuBox > .submenu > .submenuitemBox > ul > .subsubmenu > .subsubmenuitem {
+    margin-bottom: 15px;
+}
+.submenuBox > .submenu > .submenuitemBox > ul > .subsubmenu > .subsubmenuitem > .item{
+    font-size:25px;
+}
+.submenuRow1, .submenuRow2, .submenuRow3, .submenuRow4, .submenuRow5, .submenuRow6{
+    display:none;
+}
+
+
+
+
+/* 푸터 */
+.footer{
+    width:15%;
+    float:right;
+}
+.footer > ul{
+    position: absolute;
+    bottom: 71.5px;
+    right:60px;
+}
+.footer > .footermenu{
+    bottom: 300px;
+}
+.footer > .footermenu .item{
+    font-size: 20px;
+}
+/* SNS로고 */
+.footer > .footerSNS > .footeritem{
+    float:left;
+    margin-left:16px;
+    margin-bottom:5px;
+}
+.footer > .footermenu{
+    bottom : 155px;
+}
+.footer > .footermenu > .footeritem{
+    margin-top: 21px;
+    text-align:right;
+    margin-right:2px;
+}
+.footer > .footermenu > .footeritem > .item{
+    color : #999999;
+}
+
+

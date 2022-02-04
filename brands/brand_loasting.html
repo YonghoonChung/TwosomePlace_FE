@@ -258,6 +258,18 @@
             $(".submenubarBox").slideToggle(200);
         });
     });
+    $(window).resize(function() {
+        let windowWidth = $( window ).width();
+        if(windowWidth < 1178) {
+            console.log(windowWidth);
+            $(".headerBox").off('mouseenter mouseleave');
+        }
+        else{
+            $(".headerBox").hover(function () {
+                $(".submenubarBox").slideToggle(200);
+            });
+        }
+    });
 </script>
 
 <div class="pop" id="pop_1">
@@ -320,5 +332,6 @@
         $(pop2).css('display', 'none');
     }
 </script>
+<script src="../js/headerNowMenu.js"></script>
 
 </html>

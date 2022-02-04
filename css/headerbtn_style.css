@@ -50,7 +50,9 @@ html{
     float:right;
     padding-left:15px;
 }
-
+.item:hover{
+    cursor:pointer;
+}
 
 /* 메뉴 */
 .menuBox{
@@ -144,3 +146,147 @@ html{
 }
 
 
+/* ===========반응형=========== */
+@media screen and (max-width:1530px){
+    /* 메인메뉴 위치조정 */
+    .menuBox{
+        margin-top : 92px;
+        width:30%;
+    }
+    .menuBox > .menuArea > .menu{
+        margin-left : 48px;
+    }
+    .menuBox > .menuArea > .menu > .menuitem{
+        margin-bottom : 30px;
+    }
+    .menuBox > .menuArea > .menu> .menuitem .item{
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    /* 빨간박스 크기 조정 */
+    .square{
+        font-size: 1px !important;
+        font-weight: lighter !important;
+    }
+
+    /* 서브메뉴 위치 조정 */
+    .submenuBox > .submenu {
+        margin-top: 75px;
+        margin-left:15px;
+    }
+    .submenuBox > .submenu > .submenuitemBox .item{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .submenuBox > .submenu > .submenuitemBox .subsubmenuitem .item{
+        font-size: 20px !important;
+    }
+
+    /* 푸터 크기 조정 */
+    .footer > .footermenu > .footeritem > .item{
+        font-size: 16px;
+    }
+    .footer > .footermenu{
+        bottom: 120px;
+        right: 48px;
+    }
+    .footer > .footermenu > .footeritem{
+        margin-top:16px;
+    }
+    .footer > ul{
+        bottom: 56px;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width:897px){
+    .headerBox{
+        margin-bottom: 0;
+    }
+    /* 로고크기조정 */
+    .headerBox > .mainheader > .logoBox img{
+        width:136px;
+        height:19px;
+        margin-top:19px;
+        margin-left:32px;
+    }
+    /* x버튼 위치조정 */
+    .headerBox > .mainheader > .menuBtnBox > .menuBtn img{
+        float:right;
+        top:16px;
+        left:0;
+        padding-right:32px;
+    }
+    /* 메인메뉴 조정 */
+    .menuBox{
+        margin-top : 4px;
+        width:100%;
+    }
+    .menuBox::after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .menuBox > .menuArea > .menu{
+        margin-left:32px;
+    }
+    .menuBox > .menuArea > .menu > .menuitem{
+        margin-bottom : 24px;
+    }
+    .menuBox > .menuArea > .menu > .menuitem .item{
+        display:block;
+        font-size: 24px;
+    }
+    /* 서브메뉴 조정 */
+    .submenuBox{
+        display:none;
+    }
+    .submenuBox > .submenu > .submenuitemBox > .item{
+        font-size: 16px;
+    }
+    .submenuBox > .submenu > .submenuitemBox .subsubmenu .item{
+        font-size: 14px;
+    }
+
+    /* 푸터조정 */
+    .footer{
+        box-sizing: border-box;
+        float:left;
+        padding : 0 32px 0;
+        width:100%;
+        margin-top:36px;
+    }
+    .footer > ul{
+        position: static;
+        display:block;
+        float:left;
+    }
+    .footer > .footermenu{
+        border-top:1px solid rgba(255,255,255,.16);
+        width:100%;
+    }
+    .footer > .footermenu > .footeritem{
+        text-align: left;
+    }
+    .footer > .footermenu > .footeritem:first-child{
+        margin-top:32px;
+    }
+    .footer > .footermenu > .footeritem > .item{
+        display:block;
+        width:100%;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    .footer > .footerSNS {
+        margin-top:34px;
+        margin-bottom:120px;
+        box-sizing: border-box;
+        display:block;
+        width:100%;
+    }
+    .footer > .footerSNS > .footeritem{
+        margin:0;
+        margin-right:16px;
+    }
+}

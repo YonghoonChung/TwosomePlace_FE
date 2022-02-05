@@ -92,7 +92,60 @@ menu.addEventListener("mouseout", function(){
 });
 
 
+// 모바일 반응형일때만 작동하는 함수
+window.onresize = function(){
+    
+    const closesubmenu = function(){
+        let submenuBox = document.getElementsByClassName("submenuBox");
+        submenuBox[0].style.display="none";
+    }
+    const opensubmenu = function(param){
+        document.getElementsByClassName("submenuBox")[0].style.display="inline-block";
+        for(let i = 0; i<6; i++){
+            let submenuStr = "submenuRow" + (i+1);
+            let submenu = document.getElementsByClassName(submenuStr);
+            if(i==param){
+                submenu[i].style.display="block";
+            }
+            else{
+                submenu[i].style.display="none";
+            }
+        }
+        console.log("opensubmenu 함수 실행");
+    }
+    if(window.innerWidth <= 897){
+        // 메뉴가 클릭되었을때, 서브메뉴가 열리는 기능
+        for(let i =0; i<6; i++){
+            items[i].addEventListener("click", function(){
+                const submenu = opensubmenu(i);
+                switch(i){
+                    case 0 :
+                        items[0].style.margin="0 0 24px 45px";
+                        submenu[0].style.top="0";
+                        submenu[0].style.left="0";
+                        break;
+                    case 1 :
+                        
+                        break;
+                    case 2 :
 
+                        break;
+                    case 3 :
+
+                        break;
+                    case 4 :  
+
+                        break;
+                    case 5 :
+
+                        break;
+                    default :
+                        closesubmenu();
+                }
+            });
+        }
+    }
+};
 
 
 

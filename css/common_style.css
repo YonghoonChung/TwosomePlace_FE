@@ -841,6 +841,11 @@ background-color: rgba(0,0,0,.2)
         top:0;
         margin-top : 38px;
     }
+    .headerBox > .mainheader > .menuBtnBox > .menuBtn img{
+        width:22px;
+        height:22px;
+        margin: 33px 24px 0 0;
+    }
 }
 
 @media screen and (max-width: 897px){

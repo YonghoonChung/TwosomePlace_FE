@@ -9,7 +9,7 @@
 </head>
 <script scr=""></script>
 <link rel="stylesheet" href="../css/common_style.css">
-<link rel="stylesheet" href="../css/board_style.css">
+<link rel="stylesheet" href="../css/notice.css">
 
 <body>
     <div class="wrapper">
@@ -130,79 +130,38 @@
                     </div>
                 </div>
                 
-                <p id="title-h1">보도자료</p>
-                
-                <div class="bodycontainer">
-                    <!-- <div class="seacrhbar-wrap">
-                        <div class="seacrhbar">
-                            <select id="searchType">
-                                <option value="제목">제목</option>
-                                <option value="내용">내용</option>
-                            </select>
-                            <span class="search-board-input input">
-                                <input type="text" id="searchTxt" placeholder="검색어 입력">
-                            </span>
-                        </div>
-                        
-                        <div class="no-data">
-                            <p>검색 결과가 없습니다.</p>
-                        </div>
-                    </div> -->
-                    <form action="/co/reportList.do" method="post" name="annoSearchF">
-                        <fieldset>
-                            <legend>검색</legend>
-                            <div class="ui-bbs-search">
+                <p id="title-h1">공지사항</p>
+                <div class="bodycontainer2">
+                    <div class="ui-bbs-view2">
+                        <p id="title-h34">투썸플레이스 음료 가격 조정 안내</p>
+                        <p class="date">2022-01-24</p>
+                        <div class="ui-bbs-content3">
+                            <p>
+                                <img src="../images/POP.png">
+                            </p>
+                            
                                 
-                                <div class="search-board-wrap">
-                                    <span class="search-board-select select">
-                                        <select name="searchType" id="searchType" title="검색 범위">
-                                            <option value="title" selected>제목</option>
-                                            <option value="content" >내용</option>
-                                        </select>
-                                    </span>
-                                    <span class="search-board-input input">
-                                        <input type="text" name="searchTxt" id="searchTxt" placeholder="검색어 입력" title="검색어 입력" value="">
-                                        <button type="submit" class="button-search"><i class="ico-search"></i><span class="sr-only">검색</span></button>
-                                    </span>
-                                </div>
-                            </div>
-                        </fieldset>
-                         <!-- 페이징처리 -->
-                         <input type="hidden" name="nextPageNum" value="1"/>
-                    </form>
-                    <div class="no-data">
-                        <p>검색결과가 없습니다.</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <a href="" class="button is-cmd is-large">
+                            목록
+                        </a>
+                    </div>
+                    <div class="ui-bbs-nav">
+                        <dl class="ui-bbs-nav-prev">
+                            <dt>이전글</dt>
+                            <dd>이전글이 없습니다.</dd>
+                        </dl>
+                        <dl class="ui-bbs-nav-next">
+                            <dt>다음글</dt>
+                            <dd><a href="">고객센터 임시 운영 제한 안내</a></dd>
+                            <span id="date">2021-11-07</span>
+                        </dl>
                     </div>
                 </div>
             </div>
             
-            <div class="pagination-wrap">
-                <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-                    <a href="#" class="button button-board is-black is-outlined is-mobile-hide" style disabled>
-                        <i class="ico-angle-dd-left"></i>
-                        <span class="sr-only">첫 페이지 목록</span>
-                    </a>
-                    <a href="#" class="button button-board is-black is-outlined is-mobile-hide" style disabled>
-                        <i class="ico-angle-left"></i>
-                        <span class="sr-only">이전 페이지 목록</span>
-                    </a>
-                    <ul class="pagination-list">
-                        <li>
-                            <a href="#" class="pagination-link is-current" aria-current="페이지">1</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="button button-board is-black is-outlined" style disabled>
-                        <i class="ico-angle-right">
-                            <span class="sr-only">다음 페이지 목록</span>
-                        </i>
-                    </a>
-                    <a href="#" class="button button-board is-black is-outlined is-mobile-hide" style disabled>
-                        <i class="ico-angle-dd-right">
-                            <span class="sr-only">마지막 페이지 목록</span>
-                        </i>
-                    </a>
-                </nav>
-            </div>
         </div>
 
         <!-- 푸터 -->

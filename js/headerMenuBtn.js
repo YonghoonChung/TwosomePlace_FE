@@ -92,6 +92,7 @@ menu.addEventListener("mouseout", function(){
 });
 
 
+
 // 모바일 반응형일때만 작동하는 함수
 window.onresize = function(){
     
@@ -105,10 +106,10 @@ window.onresize = function(){
             let submenuStr = "submenuRow" + (i+1);
             let submenu = document.getElementsByClassName(submenuStr);
             if(i==param){
-                submenu[i].style.display="block";
+                submenu[0].style.display="block";
             }
             else{
-                submenu[i].style.display="none";
+                submenu[0].style.display="none";
             }
         }
         console.log("opensubmenu 함수 실행");

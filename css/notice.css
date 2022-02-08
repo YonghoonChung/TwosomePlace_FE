@@ -341,6 +341,7 @@ a {
 .button-board[disabled] {
     /* opacity: 1; */
     border-color: #d6d6d6 !important;
+    margin: 0 3px;
     background-color: #fff !important;
 }
 .button.is-outlined {
@@ -373,12 +374,13 @@ a {
     display: inline-flex;
     position: relative;
     overflow: hidden;
+    margin: 0 6px;
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
     background-color: transparent;
     box-shadow: none;
-    height: 56px;
+    height: 31px;
     justify-content: flex-start;
     vertical-align: top;
     border-width: 1px;
@@ -404,15 +406,19 @@ a {
     -moz-osx-font-smoothing: grayscale;
 }
 .ico-angle-dd-left:before {
+    margin-left: 5px;
     content: "<<";
 }
 .ico-angle-left:before {
+    margin-left: 10px;
     content: "<";
 }
 .ico-angle-right:before {
+    margin-left: 10px;
     content: ">";
 }
 .ico-angle-dd-right:before {
+    margin-left: 5px;
     content: ">>";
 }
 *::before, *::after {
@@ -443,12 +449,7 @@ ul[class], ol[class] {
     flex-wrap: wrap;
     margin: 0 12px;
 }
-.pagination, .pagination-list {
-    display: inline-block;
-    text-align: center;
-    font-size: 0;
-    /* margin: 0 -3px; */
-}
+
 ul {
     /* display: block; */
     /* list-style-type: disc; */

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_birthday" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-4{fill:#010101}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="사각형_354" fill="#fff" stroke="#010101">
+        <path d="M2 0h14a2 2 0 0 1 2 2v13H0V2a2 2 0 0 1 2-2z" class="cls-5" transform="translate(3 8)"/>
+        <path fill="none" d="M2 .5h14A1.5 1.5 0 0 1 17.5 2v12a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5V2A1.5 1.5 0 0 1 2 .5z" transform="translate(3 8)"/>
+    </g>
+    <g id="패스_2480" fill="#fff">
+        <path d="M2.296 4.581C1.306 4.581.5 3.775.5 2.785c0-.642.957-1.993 1.796-2.96.807.93 1.796 2.288 1.796 2.96 0 .99-.806 1.796-1.796 1.796z" class="cls-5" transform="translate(9.949 1.041)"/>
+        <path fill="#000" d="M2.296.608c-.112.14-.23.29-.347.447C1.011 2.31 1 2.766 1 2.785c0 .715.581 1.296 1.296 1.296.714 0 1.296-.581 1.296-1.296 0-.019-.01-.471-.939-1.716-.12-.162-.242-.317-.357-.46m0-1.531s2.296 2.44 2.296 3.707c0 1.268-1.028 2.296-2.296 2.296C1.028 5.081 0 4.053 0 2.785 0 1.517 2.296-.922 2.296-.922z" transform="translate(9.949 1.041)"/>
+    </g>
+    <path id="사각형_357" d="M0 0H16V1H0z" class="cls-4" transform="translate(4 12)"/>
+    <path id="사각형_355" d="M0 0H24V1H0z" class="cls-4" transform="translate(0 22)"/>
+</svg>

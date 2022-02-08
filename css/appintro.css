@@ -1,0 +1,117 @@
+/* 제목이 있는 섹션 */
+.main-content > .container > .smallmenuBox > .smallmenu > .smallmenuitem .semo {
+    display:inline-block;
+}
+.main-content > .container > .smallmenuBox > .smallmenu > .goappchoice { 
+    color:#d50037;
+}
+.bodycontainer > .titleArea > .subtitleArea{
+    display:flex;
+    height: 384px;
+    justify-content: space-between;
+}
+
+.bodycontainer > .titleArea > .subtitleArea > .subtitleContent, .subtitleImg{
+    height:100%;
+    width: 40%; 
+}
+.bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleBigTxt{
+    font-size: 56px;
+    margin-bottom: 32px;
+}
+.bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleTxt{
+    margin-bottom: 64px;
+}
+.bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleTxt p{
+    font-size: 32px;
+}
+.bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleSmallTxt, .subtitleSmallTxt span{
+    font-size: 18px;
+    font-weight: 400;
+    word-break: keep-all;
+}
+.bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleSmallTxt span{
+    color:#d50037;
+}
+.bodycontainer > .titleArea > .subtitleArea > .subtitleImg img{
+    vertical-align: middle;
+    /* 사진을 아래에 배치해야함 */
+}
+
+/* 6개 테이블이 있는 섹션 */
+.bodycontainer > .bodyArea1{
+    margin-top:120px;
+    display:block;
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.bodycontainer > .bodyArea1 > .category{
+    border: 1px solid #d6d6d6;
+    padding : 48px 32px;
+    width: 382px;
+    height: 373px;
+    margin: 11.5px;
+    text-align: center;
+}
+.bodycontainer > .bodyArea1 > .category img{
+    width:120px;
+    height:120px;
+    margin-bottom: 12px;
+}
+.bodycontainer > .bodyArea1 > .category dt{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.bodycontainer > .bodyArea1 > .category dl{
+    font-size: 18px;
+    font-weight: 100;
+    color: #555;
+}
+
+/* 스와이프 섹션 */
+.bodycontainer > .bodyArea2{
+    display:inline-block;
+    background-color: hotpink;
+    width:100%;
+    height:664px;
+    box-sizing: border-box;
+    margin-bottom: 120px;
+}
+.bodycontainer > .bodyArea2::before{
+    content:"";
+    display:block;
+    clear:both;
+}
+/* 스와이프섹션 추가 작업### */
+
+/* 다운로드 섹션 */
+.bodycontainer > .appdownload{
+    width:1216px;
+    height:64px;
+    display:flex;
+    justify-content: space-between;
+}
+.bodycontainer > .appdownload > .downloadTxt{
+    font-size: 40px;
+}
+.bodycontainer > .appdownload > .applist *{
+    float:left;
+}
+.bodycontainer > .appdownload > .applist > .playstore, .applestore{
+    border: 1px solid #d6d6d6;
+    height: 100%;
+    width:238px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodycontainer > .appdownload > .applist > .playstore span, .applestore span{
+    font-size: 16px;
+}
+.bodycontainer > .appdownload > .applist > .playstore img, .applestore img{
+    width:22px;
+    height:24px;
+}

@@ -134,11 +134,20 @@ body {
     word-break: keep-all;
 }
 
-.flex-item img{
+/* .flex-item img{
     max-width: 100%;
     height: auto;
     width: 479px;
-    z-index: -9999;
+    z-index: -9990;
+} */
+
+
+.flex-list-bi {
+    margin-bottom: 120px;
+    background-image: url(../images/bi_img_illust_p.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: auto 246px;
 }
 
 ul[class] {
@@ -245,6 +254,7 @@ img {
 
 .box-bi-gradient em {
     color: #d50037;
+    font-size: 60px
 }
 
 .box-bi-gradient .title {

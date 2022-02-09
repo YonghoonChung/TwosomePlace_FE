@@ -358,8 +358,8 @@ html {
 .vision-list-item {
     position: relative;
     display: inline-block;
-    padding: 68px 72px;
-    width: calc(50% - 35px);
+    padding: 12px 12px;
+    width: calc(48% - 35px);
     margin: 32px 16px 0;
     overflow: hidden;
     background-color: #f5f5f5;

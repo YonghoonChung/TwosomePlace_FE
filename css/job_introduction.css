@@ -1,0 +1,152 @@
+.container {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 48px;
+    max-width: 1312px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title-h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+h1 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.tabs li {
+    display: block;
+}
+
+.tabs a:hover, .tabs .tab:hover {
+    border-bottom-color: #000;
+    color: #000;
+}
+
+.tabs .tab {
+    cursor: pointer;
+    border: initial;
+    background-color: initial;
+}
+
+.tabs a, .tabs .tab {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em 0 0.2em;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.title-h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.ui-table-dl.type-1 {
+    border-top: 2px solid #000;
+}
+
+.ui-table-dl {
+    display: table;
+    width: 100%;
+  
+}
+
+.ui-table-dl.type-1 .ui-dl-row-dt {
+    width: 260px;
+    padding: 44px 0;
+    font-size: 24px;
+}
+
+.ui-table-dl .ui-dl-row-dt {
+    display: table-cell;
+    border-bottom: 1px solid #ebebeb;
+    vertical-align: top;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+.dl-list.type-1 .dl-list-dt:first-child {
+    margin-top: 0;
+}
+
+.dl-list.type-1 .dl-list-dt {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+.dl-list.type-1 .dl-list-dd .desc:last-child {
+    margin-bottom: 0;
+}
+
+.dl-list.type-1 .dl-list-dd .desc {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ui-table-dl.type-1 .ui-dl-row-dt {
+    width: 260px;
+    padding: 44px 0;
+    font-size: 24px;
+}
+
+.ui-table-dl .ui-dl-row-dt {
+    display: table-cell;
+    border-bottom: 1px solid #ebebeb;
+    vertical-align: top;
+
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+.ui-table-dl.type-1 .ui-dl-row-dd {
+    padding: 44px 0;
+}
+
+.ui-table-dl .ui-dl-row-dd {
+    display: table-cell;
+    border-bottom: 1px solid #ebebeb;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.tabs li.is-active a, .tabs li.is-active .tab {
+    border-bottom: 2px solid #d50037;
+    font-weight: 700;
+    color: #d50037;
+}
+
+.tabs a:hover, .tabs .tab:hover {
+    border-bottom-color: #000;
+    color: #000;
+}
+
+
+
+
+

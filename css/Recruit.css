@@ -207,17 +207,20 @@ ul[class] {
 .icon-welfare-1 {
     width: 96px;
     height: 96px;
+    margin-left: 110px;
     background: url(../images/ico_welfare_1.jpg) 50% 50% no-repeat;
 }
 
 .icon-welfare-2 {
     width: 96px;
     height: 96px;
+    margin-left: 110px;
     background: url(../images/ico_welfare_2.jpg) 50% 50% no-repeat;
 }
 
 .icon-welfare-3 {
     width: 96px;
     height: 96px;
-    background: url(../images/icon/ico_welfare_3.svg) 50% 50% no-repeat;
+    margin-left: 110px;
+    background: url(../images/ico_welfare_3.jpg) 50% 50% no-repeat;
 }

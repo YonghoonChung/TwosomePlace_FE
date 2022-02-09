@@ -22,14 +22,14 @@ ol, ul {
     box-sizing: border-box;
 }
 
-ul {
+/* ul {
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+} */
 
 .tabs li {
     display: block;
@@ -145,14 +145,16 @@ img {
     color: var(--swiper-navigation-color,var(--swiper-theme-color));
 }
 
+ /*
 button {
     font-family: inherit;
     border: 0;
     padding: 0;
     background-color: transparent;
-}
+}   */
 
-button {
+
+/* button {
     appearance: auto;
     -webkit-writing-mode: horizontal-tb !important;
     font-style: ;
@@ -174,7 +176,7 @@ button {
    
     text-align: center;
     
-}
+} */
 
 .box-dtdi-gray .swiper-button-next {
     right: 0;

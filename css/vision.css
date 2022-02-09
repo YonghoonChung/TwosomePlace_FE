@@ -1,0 +1,339 @@
+.main-content {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: -10px;
+    padding: 0 48px;
+    padding-top: 100px;
+    max-width: 1312px;
+}
+
+.submenubarBox{
+    display:none;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "맑은고딕";
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    box-sizing:border-box;
+}
+
+.container{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 48px;
+    max-width: 1312px;
+}
+
+.smallmenubox{
+    margin-bottom: 56px;
+}
+.smallmenubox ol{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.smallmenubox li{
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 8px;
+}
+.smallmenubox li a {
+    cursor: pointer;
+    font-size: 14px;
+    color: #707070;
+    font: bold;
+    
+}
+.smallmenubox li.gomain{
+    padding: 0;
+}
+.smallmenubox li.gocoffestory a{
+    color: #d50037;
+    /* font: bold;
+    font-weight: 1000; */
+    padding-left: 5px;
+    /* cursor: pointer; */
+    /* pointer-events: inherit */
+}
+.smallmenubox li::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin-right: 3px;
+    background: #333;
+    vertical-align: middle
+}
+
+.smallmenubox li:first-child::before {
+    display: none
+}
+.smallmenubox li.gomain a {
+    padding: 0
+}
+
+
+/* @media (max-width: 897px)
+.breadcrumb {
+    display: none;
+}
+
+@media (max-width: 1023px)
+.breadcrumb {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 897px)
+.container {padding: 0 32px;} */
+
+.title-h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.sr-only, .is-sr-only {
+    border: none !important;
+    clip: rect(0, 0, 0, 0) !important;
+    height: 0.01em !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 0.01em !important;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+.breadcrumb li {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 8px;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.breadcrumb li a {
+    cursor: pointer;
+    pointer-events: inherit;
+    font-size: 14px;
+    color: #707070;
+}
+
+a, button, .button {
+   
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a { text-decoration: inherit;}
+
+* {box-sizing: border-box;}
+
+.breadcrumb li a {
+    cursor: pointer;
+    pointer-events: inherit;
+    font-size: 14px;
+    color: #707070;
+}
+
+.breadcrumb li .dropdown {
+    display: inline-block;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+.dropdown .dropdown-trigger {
+    min-width: inherit;
+    display: -moz-flex;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li .dropdown-trigger .button {
+    display: -moz-flex;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li.is-active a, .breadcrumb li.is-active .button {
+    color: #d50037;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: inherit;
+}
+
+.dropdown .dropdown-trigger button {
+    justify-content: space-between;
+    min-width: inherit;
+    border-color: #ccc;
+}
+
+.breadcrumb .button {
+    overflow: inherit;
+    height: auto;
+    padding: 0;
+    border: none;
+    line-height: 1;
+    font-size: 14px;
+    color: #707070;
+}
+
+.button { 
+    text-align: center;
+    white-space: nowrap; }
+
+.container {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 48px;
+        max-width: 1312px;
+    }
+
+* {box-sizing: border-box;}   
+
+
+
+
+.section-mb {
+    margin-bottom: 120px;
+    display: block;
+}
+
+.section-text .title-wrap {
+    margin-bottom: 16px;
+}
+
+.title-wrap {
+    display: flex;
+    position: relative;
+}
+
+.title-h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+ul[class], ol[class] {
+    list-style: none;
+}
+
+.box-list {
+    margin: 24px -24px 24px -16px;
+    font-size: 0;
+}
+
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.box-list>li {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 48px 20px 42px;
+    border: 1px solid #d6d6d6;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.icon-value-1 {
+    width: 120px;
+    height: 120px;
+    background: url(../images/ico_value_1.png) 50% 50% no-repeat;
+}
+
+.box-list>li .title {
+    display: block;
+    margin-bottom: 16px;
+    color: #d50037;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+.box-list>li .desc {
+    display: block;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul[class]{
+    list-style: none;
+}
+
+:root {
+    --swiper-navigation-size: 44px;
+    --swiper-theme-color: #007aff;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    min-width: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+

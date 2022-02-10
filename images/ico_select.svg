@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:#fff;stroke:#010101}.cls-2{stroke-width:2px}.cls-8{fill:none}.cls-7{stroke:none}
+        </style>
+    </defs>
+    <g id="ico_select">
+        <g id="그룹_391" transform="translate(1)">
+            <g id="사각형_717" class="cls-2">
+                <path d="M0 0H59V96H0z" class="cls-7" transform="translate(30 12)"/>
+                <path d="M1 1H58V95H1z" class="cls-8" transform="translate(30 12)"/>
+            </g>
+            <g id="사각형_718" class="cls-3">
+                <path d="M0 0H12V2H0z" class="cls-7" transform="translate(54 18)"/>
+                <path d="M0.5 0.5H11.5V1.5H0.5z" class="cls-8" transform="translate(54 18)"/>
+            </g>
+            <g id="사각형_721" class="cls-3">
+                <path d="M0 0H57V2H0z" class="cls-7" transform="translate(31 97)"/>
+                <path d="M0.5 0.5H56.5V1.5H0.5z" class="cls-8" transform="translate(31 97)"/>
+            </g>
+        </g>
+        <g id="그룹_393" transform="translate(-19.742 4)">
+            <path id="사각형_743" fill="#fff" d="M0 0H4V34H0z" transform="translate(81 39)"/>
+            <g id="타원_129" class="cls-2" transform="translate(73 63)">
+                <circle cx="3.5" cy="3.5" r="3.5" class="cls-7"/>
+                <circle cx="3.5" cy="3.5" r="2.5" class="cls-8"/>
+            </g>
+            <g id="패스_2832" fill="#fff">
+                <path d="M21.246 17H4.754L1.326 5h23.348l-3.428 12z" class="cls-7" transform="translate(69 43)"/>
+                <path fill="#010101" d="M2.651 6L5.51 16H20.49L23.35 6H2.65M0 4h26l-4 14H4L0 4z" transform="translate(69 43)"/>
+            </g>
+            <g id="타원_140" class="cls-2" transform="translate(85 63)">
+                <circle cx="3.5" cy="3.5" r="3.5" class="cls-7"/>
+                <circle cx="3.5" cy="3.5" r="2.5" class="cls-8"/>
+            </g>
+            <path id="패스_2833" fill="none" stroke="#010101" stroke-width="2px" d="M64.484 44.513h4.766l1.531 5.1"/>
+        </g>
+    </g>
+</svg>

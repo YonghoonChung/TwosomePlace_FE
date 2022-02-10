@@ -71,8 +71,8 @@
 }
 
 .tabs.ui-tabs-nav {
-    margin-bottom: 35px;
-    margin-top: 235px;
+    margin-bottom: 61px;
+    margin-top: 230px;
     margin-left: -16px;
 }
 .font-20 {
@@ -133,6 +133,7 @@ ol, ul {
     border-bottom: 2px solid #d50037;
     font-weight: 700;
     color: #d50037;
+    font-size: 20px;
 }
 
 .mb120 {
@@ -522,3 +523,304 @@ li {
 }
 
 
+/* 멤버십 소개 */
+.ui-menu-img-text.type-1 {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ui-menu-img-text {
+    display: -moz-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+
+.ui-menu-img-text.type-1 .slogun-wrap {
+    width: auto;
+}
+
+.ui-menu-img-text .slogun-wrap {
+    flex-basis: 48%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-right: 10vw;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+.ui-menu-img-text .slogun-wrap dl dt {
+    font-size: 56px;
+    font-weight: 800;
+    color: #000;
+    font-family: "Mark Pro";
+}
+.font-mark {
+    font-family: "Mark Pro" !important;
+    font-weight: 800;
+}
+
+.ui-menu-img-text .slogun-wrap dl dd {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 32px;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+.ui-menu-img-text .slogun-wrap p {
+    color: #333;
+    margin-top: 64px;
+    padding-right: 32px;
+}
+
+.ui-menu-img-text.type-1 .img-area {
+    width: 479px;
+}
+
+.ui-menu-img-text .img-area {
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.ui-menu-img-text.type-1 .img-area img {
+    width: 100%;
+}
+
+img, video {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.section-twosome-heart {
+    background: #f5f5f5;
+    padding: 96px 72px 0 72px;
+    position: relative;
+}
+.mb120 {
+    margin-bottom: 120px !important;
+}
+.section-twosome-heart h3 {
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.section-twosome-heart h3 strong {
+    display: inline-block;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 32px;
+}
+.section-twosome-heart h3 strong em {
+    color: #d50037;
+    font-size: 32px;
+}
+address, em, i, cite {
+    font-style: normal;
+}
+.section-twosome-heart h3 strong span.bg-heart-01 {
+    width: 48px;
+    height: 47px;
+    background: url(/images/ico_heart_01.svg) no-repeat 0 0/cover;
+    top: -34px;
+    right: -52px;
+}
+
+.section-twosome-heart h3 strong span {
+    position: absolute;
+}
+
+.section-twosome-heart h3 strong span.bg-heart-02 {
+    width: 27px;
+    height: 26px;
+    background: url(../images/ico_heart_02.svg) no-repeat 0 0/cover;
+    top: -53px;
+    right: -67px;
+}
+
+.section-twosome-heart h3 strong span.bg-heart-03 {
+    width: 21px;
+    height: 17px;
+    background: url(../images/ico_heart_03.svg) no-repeat 0 0/cover;
+    top: -75px;
+    right: -44px;
+}
+.section-twosome-heart h3 strong span.bg-heart-04 {
+    width: 11px;
+    height: 9px;
+    background: url(../images/ico_heart_04.svg) no-repeat 0 0/cover;
+    top: -91px;
+    right: -63px;
+}
+.section-twosome-heart p {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.section-twosome-heart .twosome-heart-list {
+    display: -moz-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+}
+
+.section-twosome-heart .twosome-heart-list li {
+    background: #fff;
+    border-radius: 31.5px;
+    width: calc((100% - 32px) / 2);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    padding: 18px;
+}
+.section-twosome-heart .twosome-heart-list li strong {
+    color: #d50037;
+}
+strong {
+    font-weight: bold;
+}
+.section-twosome-heart .twosome-heart-list li br {
+    display: none;
+}
+.section-twosome-heart .twosome-heart-list li span {
+    font-weight: normal;
+}
+
+.section-twosome-heart .twosome-heart-list li:nth-child(2n+2) {
+    margin-left: 32px;
+}
+.section-twosome-heart .twosome-heart-list li:nth-child(n+3) {
+    margin-top: 24px;
+}
+
+.section-twosome-heart .img-area {
+    margin: 183px 0 0 0;
+    text-align: center;
+    padding-bottom: 97px;
+    position: relative;
+    z-index: 1;
+}
+.section-twosome-heart .img-area .img-area-inner {
+    display: inline-block;
+}
+.cf {
+    zoom: 1;
+}
+
+.cf:before {
+    display: table;
+    content: "";
+}
+.section-twosome-heart .img-area .img-area-inner img {
+    width: 283px;
+}
+.section-twosome-heart .img-area .img-area-inner img+img {
+    margin: -182px 0 0 56px;
+}
+
+.cf:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.section-twosome-heart .bg-01 {
+    position: absolute;
+    bottom: 97px;
+    left: 0;
+    width: 224px;
+    height: 187px;
+    background: url(../images/img_left.png) no-repeat 0 0/cover;
+}
+.section-twosome-heart .bg-02 {
+    position: absolute;
+    bottom: 188px;
+    right: 0;
+    width: 231px;
+    height: 278px;
+    background: url(../images/img_human.png) no-repeat 0 0/cover;
+}
+.section-text .title-wrap {
+    margin-bottom: 35px;
+}
+
+.twosome-heart-step-list {
+    display: -moz-flex;
+    display: flex;
+}
+
+.twosome-heart-step-list li {
+    border: 1px solid #d6d6d6;
+    width: calc((100% - 96px) / 4);
+}
+.twosome-heart-step-list li dl {
+    padding: 48px 0;
+    text-align: center;
+}
+
+.twosome-heart-step-list.order .choice {
+    background: url(../images/ico_select.svg) no-repeat 50% 0/120px 120px;
+}
+
+.twosome-heart-step-list li dl dt {
+    padding-top: 144px;
+    color: #d50037;
+}
+.twosome-heart-step-list li dl dd {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 8px;
+}
+.twosome-heart-step-list li+li {
+    margin-left: 32px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.twosome-heart-step-list.order .order {
+    background: url(../images/ico_card.svg) no-repeat 50% 0/120px 120px;
+}
+.twosome-heart-step-list li dl dt {
+    padding-top: 144px;
+    color: #d50037;
+}
+.twosome-heart-step-list.order .menu {
+    background: url(../images/ico_receive.svg) no-repeat 50% 0/120px 120px;
+}
+.twosome-heart-step-list.order .heart {
+    background: url(../images/ico_accumulate.svg) no-repeat 50% 0/120px 120px;
+}
+
+.twosome-heart-step-list.shop .choice {
+    background: url(../images/ico_order.svg) no-repeat 50% 0/120px 120px;
+}
+.twosome-heart-step-list.shop .barcord {
+    background: url(../images/ico_barcode.svg) no-repeat 50% 0/120px 120px;
+}
+
+.twosome-heart-step-list.shop .order {
+    background: url(../images/ico_card.svg) no-repeat 50% 0/120px 120px;
+}
+.twosome-heart-step-list.shop .heart {
+    background: url(../images/ico_accumulate.svg) no-repeat 50% 0/120px 120px;
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <style>
+            .cls-3{fill:#fff;stroke:#010101}.cls-4{fill:#010101}.cls-5{stroke:none}.cls-6{fill:none}
+        </style>
+    </defs>
+    <g id="ico_barcode">
+        <g id="그룹_391" transform="translate(1)">
+            <g id="사각형_717" fill="#fff" stroke="#010101" stroke-width="2px">
+                <path d="M0 0H59V96H0z" class="cls-5" transform="translate(30 12)"/>
+                <path d="M1 1H58V95H1z" class="cls-6" transform="translate(30 12)"/>
+            </g>
+            <g id="사각형_718" class="cls-3">
+                <path d="M0 0H12V2H0z" class="cls-5" transform="translate(54 18)"/>
+                <path d="M0.5 0.5H11.5V1.5H0.5z" class="cls-6" transform="translate(54 18)"/>
+            </g>
+            <g id="사각형_721" class="cls-3">
+                <path d="M0 0H57V2H0z" class="cls-5" transform="translate(31 97)"/>
+                <path d="M0.5 0.5H56.5V1.5H0.5z" class="cls-6" transform="translate(31 97)"/>
+            </g>
+            <g id="그룹_392" transform="translate(-1)">
+                <path id="사각형_726" d="M0 0H1V13H0z" class="cls-4" transform="translate(43 52)"/>
+                <path id="사각형_727" d="M0 0H3V13H0z" class="cls-4" transform="translate(46 52)"/>
+                <path id="사각형_728" d="M0 0H3V13H0z" class="cls-4" transform="translate(51 52)"/>
+                <path id="사각형_729" d="M0 0H2V13H0z" class="cls-4" transform="translate(56 52)"/>
+                <path id="사각형_730" d="M0 0H4V13H0z" class="cls-4" transform="translate(60 52)"/>
+                <path id="사각형_731" d="M0 0H2V13H0z" class="cls-4" transform="translate(66 52)"/>
+                <path id="사각형_732" d="M0 0H1V13H0z" class="cls-4" transform="translate(70 52)"/>
+                <path id="사각형_733" d="M0 0H3V13H0z" class="cls-4" transform="translate(72 52)"/>
+                <path id="사각형_734" d="M0 0H1V13H0z" class="cls-4" transform="translate(77 52)"/>
+            </g>
+        </g>
+    </g>
+</svg>

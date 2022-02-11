@@ -110,16 +110,30 @@ p {
     margin-inline-end: 0px;
 }
 
-.flex-list .flex-item {
-    padding-right: 55%;
-    flex: 1 1 40%;
+.title-wrap {
+    display: flex;
+    position: relative;
 }
+
+.title-wrap.type-bi {
+    margin-top: -1.3em;
+    margin-bottom: 24px;
+}
+
+.title-black {
+    font-weight: 800;
+}
+
 
 
 body {
     font-size: 18px;
     color: #333;
     line-height: 1.5;
+}
+
+.flex-list {
+    display: flex;
 }
 
 .flex-list .flex-item {
@@ -226,7 +240,6 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background: linear-gradient( 135deg,
  #fffbfb 0%, #eaf0ef 100%);
    
@@ -264,5 +277,97 @@ img {
     line-height: 84px;
     text-align: center;
 
+}
+
+
+.box-bi-gradient-coffee {
+    top: 102px;
+    left: 50%;
+    margin-left: -370px;
+}
+
+.box-bi-gradient-coffee {
+
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+}
+
+
+ul[class]{
+    list-style: none;
+}
+
+.swiper-container {
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.swiper-wrapper{
+   
+    transform: translate3d(0px,0,0);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    
+}
+
+.swiper-container .swiper-notification{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
+
+
+.box-bi-gradient-dessert {
+    bottom: 288px;
+    left: 50%;
+    margin-left: 165px;
+}
+
+ .box-bi-gradient-dessert {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+}
+
+.swiper-container-fade .swiper-slide {
+    pointer-events: none;
+  
+}
+
+.box-bi-gradient-dessert .box-bi-image img {
+    transform: rotate(-15deg);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+li {
+  
+    text-align: -webkit-match-parent;
 }
 

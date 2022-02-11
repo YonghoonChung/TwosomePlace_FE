@@ -256,3 +256,7 @@ p {
     margin-inline-end: 0px;
 }
 
+section {
+    display: block;
+    margin-top: 70px;
+}

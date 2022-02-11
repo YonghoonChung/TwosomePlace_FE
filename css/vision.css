@@ -286,36 +286,6 @@ ul {
 }
 
 
-.box-list>li {
-    display: inline-block;
-    margin: 0 16px;
-    padding: 48px 20px 42px;
-    border: 1px solid #d6d6d6;
-    text-align: center;
-    vertical-align: top;
-}
-
-
-.icon-value-1 {
-    width: 120px;
-    height: 120px;
-    background: url(../images/ico_value_1.jpg) 50% 50% no-repeat;
-}
-
-.box-list>li .title {
-    display: block;
-    margin-bottom: 16px;
-    color: #d50037;
-    word-break: keep-all;
-    word-wrap: break-word;
-}
-
-.box-list>li .desc {
-    display: block;
-    word-break: keep-all;
-    word-wrap: break-word;
-}
-
 p {
     margin: 0;
     padding: 0;
@@ -446,3 +416,88 @@ dl {
     font-weight: 600;
 }
 
+
+.box-list>li {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 48px 20px 42px;
+    border: 1px solid #d6d6d6;
+    text-align: center;
+    vertical-align: top;
+}
+
+.box-list i {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-value-1 {
+    width: 100px;
+    height: 100px;
+    background: url(../images/ico_value_1.jpg) 50% 50% no-repeat;
+}
+
+i{
+    font-style: normal;
+}
+
+.box-list>li .title {
+    display: block;
+    margin-bottom: 16px;
+    color: #d50037;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+.box-list>li .desc {
+    display: block;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+
+
+.box-list.__layout5.type-act>li:first-child {
+    border-left: 1px solid #d6d6d6;
+}
+
+.box-list.__layout5.type-act>li {
+    width: calc(100% / 5);
+    margin: 0;
+    padding: 60px 40px;
+}
+
+.icon-act-1 {
+    width: 60px;
+    height: 60px;
+    background: url(../images/ico_act_1.jpg) 50% 50% no-repeat;
+}
+
+.box-list.__layout5.type-act>li i {
+    margin-bottom: 28px;
+}
+
+.icon-act-2 {
+    width: 60px;
+    height: 60px;
+    background: url(../images/ico_act_2.jpg) 50% 50% no-repeat;
+}
+
+.icon-act-3 {
+    width: 60px;
+    height: 60px;
+    background: url(../images/ico_act_3.jpg) 50% 50% no-repeat;
+}
+
+.icon-act-4 {
+    width: 60px;
+    height: 60px;
+    background: url(../images/ico_act_4.jpg) 50% 50% no-repeat;
+}
+
+.icon-act-5 {
+    width: 60px;
+    height: 60px;
+    background: url(../images/ico_act_5.jpg) 50% 50% no-repeat;
+}

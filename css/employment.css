@@ -386,3 +386,21 @@ a {
 }
 
 
+.box-list.type-1>li.box-list-arrow:before {
+    content: "î­Ÿ";
+    margin: 0;
+    padding: 46px 0 0 0;
+    color: #000;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    font-size: 28px;
+    font-family: "iconset" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}

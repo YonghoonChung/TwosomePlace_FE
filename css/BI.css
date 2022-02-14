@@ -265,6 +265,16 @@ img {
     text-align: center;
 }
 
+.box-bi-gradient .desc:before {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #333;
+    margin-bottom: 40px;
+}
+
 .box-bi-gradient em {
     color: #d50037;
     font-size: 60px

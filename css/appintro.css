@@ -72,6 +72,9 @@
 }
 
 /* 스와이프 섹션 */
+.bodycontainer > .swiper-container{
+    overflow:visible;
+}
 .bodycontainer > .swiper-container, .swiper-container > .bodyArea2{
     display:inline-block;
     width:100%;
@@ -87,21 +90,14 @@
 }
 /* ###임시 */
 .bodycontainer > .swiper-container > .bodyArea2 .swipeBox2, .swipeBox3, .swipeBox4, .swipeBox5, .swipeBox6, .swipeBox2 *, .swipeBox3 *, .swipeBox4 *, .swipeBox5 *, .swipeBox6 *{
-    display:none;
+    /* display:none; */
 }
 /* ###임시끝 */
 .bodycontainer > .swiper-container > .bodyArea2{
     cursor: grab;
+    display:flex;
 }
-.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide{
-    display:block;
-    /* overflow:auto; */
-}
-.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide::after{
-    content:"";
-    display:block;
-    clear:both;
-}
+
 .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP{
     float:left;
 }

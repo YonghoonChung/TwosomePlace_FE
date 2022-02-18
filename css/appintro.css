@@ -72,7 +72,7 @@
 }
 
 /* 스와이프 섹션 */
-.bodycontainer > .bodyArea2{
+.bodycontainer > .swiper-container, .swiper-container > .bodyArea2{
     display:inline-block;
     width:100%;
     height:664px;
@@ -80,57 +80,66 @@
     margin-bottom: 120px;
     background-color: #f5f5f5;
 }
-.bodycontainer > .bodyArea2::before{
+.bodycontainer > .swiper-container > .bodyArea2::before{
     content:"";
     display:block;
     clear:both;
 }
 /* ###임시 */
-.bodycontainer > .bodyArea2 .swipeBox2, .swipeBox3, .swipeBox4, .swipeBox5, .swipeBox6, .swipeBox2 *, .swipeBox3 *, .swipeBox4 *, .swipeBox5 *, .swipeBox6 *{
+.bodycontainer > .swiper-container > .bodyArea2 .swipeBox2, .swipeBox3, .swipeBox4, .swipeBox5, .swipeBox6, .swipeBox2 *, .swipeBox3 *, .swipeBox4 *, .swipeBox5 *, .swipeBox6 *{
     display:none;
 }
 /* ###임시끝 */
-.bodycontainer > .bodyArea2{
+.bodycontainer > .swiper-container > .bodyArea2{
     cursor: grab;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide{
+    display:block;
+    /* overflow:auto; */
+}
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP{
     float:left;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP span{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP span{
     color:#d50037;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartImg{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartImg{
     float:right;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP > .TSheartHeader{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartHeader{
     margin : 70px 0 16px 0;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP > .TSheartNum > .TSheartNumTitle{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumTitle{
     font-size: 40px;
     margin-bottom: 16px;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP > .TSheartNum > .TSheartNumP{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP{
     font-weight: 100;
     margin-bottom: 80px;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP > .TSheartIconBox{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartIconBox{
     display:flex;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartP > .TSheartIconBox > div{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartIconBox > div{
     margin-right:64px;
 }
-.bodycontainer > .bodyArea2  > .swipeBox > .TSheartP > .TSheartIconBox .TSicons{
+.bodycontainer > .swiper-container > .bodyArea2  > .swiper-slide > .TSheartP > .TSheartIconBox .TSicons{
     text-align: center;
 }
-.bodycontainer > .bodyArea2  > .swipeBox > .TSheartP > .TSheartIconBox .TSicons img{
+.bodycontainer > .swiper-container > .bodyArea2  > .swiper-slide > .TSheartP > .TSheartIconBox .TSicons img{
     width:60px;
     height:60px;
 }
-.bodycontainer > .bodyArea2  > .swipeBox > .TSheartP > .TSheartIconBox .TSiconP{
+.bodycontainer > .swiper-container > .bodyArea2  > .swiper-slide > .TSheartP > .TSheartIconBox .TSiconP{
     font-size: 20px;
     text-align: center;
 }
-.bodycontainer > .bodyArea2 > .swipeBox > .TSheartImg > img{
+.bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartImg > img{
     width:283px;
     margin-top:-48px;
     object-fit: contain;

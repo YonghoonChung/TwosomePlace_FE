@@ -1,3 +1,4 @@
+
 .container{
     /* border: 1px solid black; */
     width: 1310px;
@@ -406,20 +407,6 @@ h4 {
     font-weight: 600;
 }
 
-
-
-
-
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-
 .ranking-view {
     border: 1px solid #d6d6d6;
     margin-top: 40px;
@@ -823,4 +810,199 @@ li {
 }
 .twosome-heart-step-list.shop .heart {
     background: url(../images/ico_accumulate.svg) no-repeat 50% 0/120px 120px;
+}
+
+
+@media screen and (max-width : 1124px) { 
+
+    .container #title-h1 {
+        display: inline-block;
+        padding-top: 20px;
+        margin-top: 33px;
+        margin-left: -12px;
+        font-size: 70px;
+        font-weight: 720;
+        line-height: 1.5;
+        width: 1000px;
+        height: 80px;
+        flex-grow: 1;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    .ui-menu-img-text.type-1 {
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .ui-menu-img-text.type-1 .img-area img {
+        width: 100%;
+    }
+    .ui-menu-img-text .slogun-wrap {
+        flex-basis: 48%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        padding-right: 5vw;
+        word-break: keep-all;
+        word-wrap: break-word;
+    }
+    
+}
+
+@media screen and (max-width: 897px) {
+
+    .bodycontainer{
+        /* width: 100%; */
+    }
+    .container {
+        width:100%;
+    }
+    .contianer > .smallmenuBox, .smallmenuBox *{
+        display:none;
+    }
+
+    .container #title-h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 0 32px;
+    }
+
+    /* 
+    .tabs.ui-tabs-nav {
+        margin-bottom: 32px;
+    } 
+    */
+    .font-20 {
+        font-size: 16px;
+    }
+
+    .ui-menu-img-text.type-1 {
+        display: block;
+    }
+
+    .ui-menu-img-text {
+        flex-direction: column-reverse;
+        margin: 0 -32px;
+        padding-bottom: 24px;
+        align-items: flex-start;
+    }
+    .ui-menu-img-text.type-1 .slogun-wrap {
+        width: 100%;
+        margin-top: 0;
+    }
+    .ui-menu-img-text .slogun-wrap {
+        width: 100%;
+        padding: 0 32px;
+        margin-top: -48px;
+        z-index: 1;
+        flex-basis: inherit;
+    }
+    .ui-menu-img-text .slogun-wrap dl dt {
+        font-size: 32px;
+    }
+    .ui-menu-img-text .slogun-wrap dl dd {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+    .ui-menu-img-text .slogun-wrap p {
+        margin-top: 32px;
+        width: 100%;
+    }
+    .ui-menu-img-text.type-1 .slogun-wrap p br {
+        display: none;
+    }
+    .ui-menu-img-text.type-1 .img-area {
+        width: calc(100% + 8px); 
+        display: -moz-flex;
+        display: flex;
+        align-items: center;
+        padding: 0 32px;
+        margin: 56px -4px 0;
+        text-align: center;
+    }
+    .ui-menu-img-text.type-1 .img-area img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-twosome-heart {
+        width: 100%;
+        padding: 64px 24px 0 24px;
+    }
+    .mb120 {
+        margin-bottom: 64px !important;
+    }
+    .section-twosome-heart .twosome-heart-list li {
+        width: 100%;
+        padding: 16px 10px;
+    }
+    .section-twosome-heart .twosome-heart-list li br {
+        display: block;
+    }
+    .section-twosome-heart .twosome-heart-list li:nth-child(n+2) {
+        margin-top: 16px;
+    }
+    .section-twosome-heart .twosome-heart-list li:nth-child(2n+2) {
+        margin-left: 0;
+    }
+    .section-twosome-heart .twosome-heart-list li {
+        width: 100%;
+        padding: 16px 10px;
+    }
+    .section-twosome-heart .img-area {
+        margin-top: 40px;
+        padding-bottom: 70px;
+    }
+    .section-twosome-heart .img-area .img-area-inner {
+        display: block;
+        padding: 0 30px;
+    }
+    .section-twosome-heart .img-area .img-area-inner img {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .section-twosome-heart .img-area .img-area-inner img+img {
+        margin: 46px 0 0 0;
+    }
+    .section-twosome-heart .img-area .img-area-inner img {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .section-twosome-heart .bg-01 {
+        display: none;
+    }
+    .section-twosome-heart .bg-02 {
+        display: none;
+    }
+
+
+    .twosome-heart-step-list {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .twosome-heart-step-list li {
+        width: 100%;
+    }
+
+    .twosome-heart-step-list li dl {
+        padding: 32px 0;
+    }
+
+    .twosome-heart-step-list li dl dd {
+        font-size: 18px;
+    }
+
+    .twosome-heart-step-list li+li {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+
+
 }

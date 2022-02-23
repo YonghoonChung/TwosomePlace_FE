@@ -88,16 +88,10 @@
     display:block;
     clear:both;
 }
-/* ###임시 */
-.bodycontainer > .swiper-container > .bodyArea2 .swipeBox2, .swipeBox3, .swipeBox4, .swipeBox5, .swipeBox6, .swipeBox2 *, .swipeBox3 *, .swipeBox4 *, .swipeBox5 *, .swipeBox6 *{
-    /* display:none; */
-}
-/* ###임시끝 */
 .bodycontainer > .swiper-container > .bodyArea2{
     cursor: grab;
     display:flex;
 }
-
 .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP{
     float:left;
 }

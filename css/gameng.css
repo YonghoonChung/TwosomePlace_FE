@@ -152,7 +152,7 @@ li{
     display: flex;
     position: relative;
 }
-
+/* 가맹점 창업안내 */
 p#title-h3{
     font-size: 40px;
     font-weight: 700;
@@ -335,7 +335,7 @@ p {
 
 
 /* 창업 조건 */
-.box-list.__layout3>li {
+.box-list._layout3>li {
     width: calc(100% / 3 - 35px);
 }
 
@@ -553,13 +553,23 @@ dl {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
-.table-vcenter .table-dl-list>dt:after {
+.text-right {
+    text-align: right !important;
+}
+.table-vcenter.type-1 tbody tr::after {
     display: inline;
     content: " : ";
     margin-top: -2px;
     vertical-align: middle;
 }
+
+
+/* .table-vcenter .table-dl-list>dt:after {
+    display: inline;
+    content: " : ";
+    margin-top: -2px;
+    vertical-align: middle;
+} */
 *::after {
     box-sizing: inherit;
 }
@@ -1551,22 +1561,6 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 금융상품 */
 
 p#title-h4{
@@ -1608,11 +1602,457 @@ colgroup {
 
 
 /* mobile */
-@media (min-width: 1024px){
-    .is-mobile-hide {
+@media screen and (max-width : 1124px) { 
+    /* .is-mobile-hide {
         display: block;
     }
     .is-mobile-show {
         display: none;
+    } */
+    /* 가맹점 개설 안내 */
+    .main-content{
+        width: 100%;
     }
+    .notice {
+        width: 100%;
+        padding: 0 4%;
+    }
+    .bodycontainer{
+        width: 100%;
+    }
+    .floatleft{
+        width: 100%;
+    }
+    .box-list.type-3._layout2{
+        width: 100%;
+    }
+
+    .notice #title-h1 {
+        font-size: 56px;
+    }
+    p#title-h3{
+        font-size: 32px;
+    }
+    .box-list.type-2>li {
+        padding: 28px 32px;
+    }
+    .box-list.type-2>li .title {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    .box-list.type-2>li .desc {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+    .box-list.type-2>li .desc-type1, 
+    .box-list.type-2>li .dot-list>li {
+        font-size: 16px;
+    }
+    .box-list._layout2.type-3>li {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .box-list>li .title {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+
+    .box-list>li .desc {
+        font-size: 16px;
+    }
+    .table-vcenter.type-1 colgroup col:first-child {
+        width: 120px !important;
+    }
+    .table-vcenter.type-1 colgroup col:last-child {
+        width: 240px !important;
+    }
+    /* 온라인 창업상담신청 */
+    .control-pyung .unit {
+        right: 283px;
+    }
+
+    input[type=text], input[type=password], input[type=date], input[type=time], input[type=tel], input[type=number], input[type=email] {
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .button {
+        height: 44px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 14px;
+    }
+
+    .select select {
+        height: 44px;
+        font-size: 14px;
+    }
+    .is-email-group .control.is-span {
+        width: 29px;
+        height: 44px;
+        font-size: 14px;
+    }
+    .is-email-group .control.is-expanded {
+        width: 144px;
+        height: 44px;
+    }
+    .checkbox input[type=checkbox]+label, .radio input[type=radio]+label {
+        font-size: 14px;
+    }
+    .control-phone .select:not(:last-child), .control-phone .input:not(:last-child) {
+        margin-right: 8px;
+    }
+    .help {
+        font-size: 12px;
+    }
+    .width-small {
+        width: 144px !important;
+    }
+
+    /* FAO페이지 */
+    .ui-faq-status {
+        margin-bottom: 28px;
+        font-size: 16px;
+    }
+    .accordion-group .collapse-header a {
+        padding: 16px 24px 16px 65px;
+        font-size: 20px;
+    }
+    .accordion-group .collapse-header a::before {
+        top: 16px;
+        font-size: 20px;
+    }
+    /* 가맹점 전용금융상품 */
+    p#title-h4{
+        font-size: 32px;
+    }
+    .table-responsive>.table {
+        width: auto;
+        max-width: 1300px;
+        min-width: 700px;
+    }
+    .section-text {
+        margin-bottom: 48px;
+    }
+    .table-responsive.type-1 {
+        overflow: auto;
+        height: 500px;
+        margin-top: 24px;
+    }
+    .dot-list.is-small>li {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 897px) {
+    /* 가맹점 개설 안내 */
+    .contianer > .smallmenuBox, .smallmenuBox *{
+        display:none;
+    }
+    .bodycontainer {
+        padding: 0 32px;
+    }
+    .tabs.ui-tabs-nav {
+        margin-bottom: 32px;
+    }
+    
+    .notice {
+        width: 100%;
+        padding: 0 4%;
+    }
+    .tabs.ui-tabs-nav {
+        margin-bottom: -9px;
+    }
+    .font-20 {
+        font-size: 16px;
+    }
+    .notice #title-h1 {
+        font-size: 32px;
+    }
+    p#title-h3{
+        font-size: 24px;
+        margin-bottom: -9px;
+    }
+
+    
+
+    /* .section-text .unit{
+        display: none;
+    } */
+    .box-list {
+        margin: 24px -16px;
+    }
+    .box-list._layout3{
+		margin-top: 28px;
+    }
+    .box-list>li .desc {
+        font-size: 14px;
+    }
+    .box-list.type-3>li {
+        margin-top: 0;
+    }
+    .box-list._layout2>li {
+        display: block;
+        width: auto;
+    }
+
+    .box-list._layout3>li {
+        display: block;
+        width: auto;
+    }
+    .box-list.type-2>li .desc {
+        font-size: 18px;
+    }
+
+    .box-list.type-2>li .desc-type1, 
+    .box-list.type-2>li .dot-list>li {
+        font-size: 14px;
+    }
+    .section-mb {
+        margin-bottom: 64px;
+    }
+    .table-vcenter.type-1 {
+        display: -moz-flex;
+        display: flex;
+        width: 100% !important;
+        min-width: inherit !important;
+        max-width: inherit !important;
+        flex-direction: column;
+    }
+    .table-vcenter.type-1 thead {
+        display: none;
+    }
+    .table-vcenter.type-1 tbody {
+        display: block;
+    }
+    .table-vcenter.type-1 tbody .table-row-mobile:first-child {
+        margin-top: -10px;
+    }
+    .table-vcenter.type-1 tbody .table-row-mobile {
+        padding-top: 66px;
+    }
+    .table-vcenter.type-1 tbody tr {
+        position: relative;
+        display: block;
+        border-bottom: 1px solid #ebebeb;
+    }
+    .table-vcenter.type-1 tbody tr th {
+        display: -moz-flex;
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 32px;
+        padding: 0 0 16px;
+        border-bottom: 1px solid #000;
+        line-height: 1;
+        font-size: 18px;
+        font-weight: 600;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .table-vcenter.type-1 tbody tr th strong {
+        flex: 1 0;
+    }
+    .table-vcenter.type-1 tbody tr th .unit {
+        display: inline-block;
+        font-size: 12px;
+        color: #999;
+        text-align: right;
+        flex: 0 0 150px;
+    }
+    .table-vcenter.type-1 tbody tr td {
+        width: 70%;
+        float: left;
+    }
+    .table-vcenter.type-1 th, 
+    .table-vcenter.type-1 td {
+        border: none;
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+    .table-vcenter .table-dl-list>dt {
+        display: block;
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .table-vcenter .table-dl-list>dd {
+        display: block;
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .table-vcenter.type-1 tbody tr td.text-right {
+        width: 30%;
+        float: right;
+    }
+    
+    .table-vcenter .table-dl-list {
+        display: inline;
+    }
+    
+    .table-vcenter.type-1 tbody tr th strong {
+        flex: 1 0;
+    }
+    .table-vcenter.type-1 tbody tr::after {
+        clear: both;
+        content: " ";
+        display: table;
+    }
+    dd {
+        display: block;
+        margin-inline-start: 0px;
+    }
+    .box-list>li:first-child {
+        margin-top: 0;
+    }
+    .box-list._layout3>li {
+        display: block;
+        width: auto;
+        margin-bottom: 20px;
+        height: 225px !important;
+    }
+    .box-list>li {
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+        padding: 24px 16px;
+    }
+    .box-list.type-3._layout2 {
+     
+        display: inline-table;
+    }
+
+
+    /* 창업설명회 */
+    .notice {
+        margin-top: -133px;
+    }
+
+    .dot-list.type-2>li {
+        font-size: 14px;
+    }
+
+    /* 온라인 창업상담신청 */
+    .box-border {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding: 24px;
+    }
+    .section-mb {
+        margin-bottom: 64px;
+    }
+    .is-horizontal .field-label {
+        display: block;
+        padding: 0;
+        width: 100%;
+        margin: 16px 0 -85px;
+        text-align: left;
+        font-size: 16px;
+    }
+    .control-name .input {
+        flex: 1 1 auto;
+    }
+    .input.width-default {
+        width: 100%;
+    }
+    .is-horizontal {
+        display: block;
+    }
+    .control-name .button {
+        margin-left: 4px;
+        flex: 0 0 100px;
+    }
+    .button {
+        font-size: 12px;
+    }
+    .select select {
+        padding: 0 24px 0 8px;
+    }
+
+    .is-email-group .control.is-span {
+        flex: 0 0 22px;
+    }
+    .is-email-group .control.is-expanded {
+        flex: 1 1;
+    }
+
+    .checkbox input[type=checkbox]+label, .radio input[type=radio]+label {
+        padding: 0 0 0 32px;
+    }
+    .checkbox input[type=checkbox]+label::before, .radio input[type=radio]+label::before {
+        margin-top: 0;
+    }
+    .control-phone .select {
+        flex: 1 1 40%;
+    }
+    .width-small {
+        width: 100% !important;
+    }
+    .help {
+        font-size: 10px;
+    }
+    .control-pyung .unit {
+        right: 8px;
+        margin-top: -11px;
+        
+    }
+
+    .width-default .select select, .width-default .select input, .width-default .input select, .width-default .input input {
+        width: 100%;
+    }
+    .control-address {
+        width: inherit !important;
+        margin-bottom: -4px;
+        margin-right: -8px;
+    }
+
+    .is-horizontal {
+        display: block;
+    }
+
+    /* FAO페이지 */
+    .ui-faq-status {
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    .accordion-group {
+        margin-left: -32px;
+        margin-right: -32px;
+    }
+    .accordion-group .collapse-header a {
+        padding: 16px 32px 16px 65px;
+        font-size: 18px;
+    }
+    .accordion-group .collapse-header a::before {
+        top: 16px;
+        font-size: 18px;
+    }
+    .button.button-board.is-black.is-outlined.is-mobile-hide{
+        display: none;
+    }
+    /* 가맹점 전용금융상품 */
+    p#title-h4{
+        font-size: 24px;
+    }
+    .section-text {
+        margin-bottom: 32px;
+    }
+    .table-responsive.type-1 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        height: auto;
+    }
+    .table tbody th, .table tbody td {
+        padding: 24px 12px;
+    }
+    .dot-list.is-small>li {
+        font-size: 12px;
+    }
+   
 }

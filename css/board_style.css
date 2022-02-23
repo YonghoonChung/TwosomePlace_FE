@@ -294,23 +294,6 @@ a, button, .button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .no-data{
     display: block;
     width: 100%;
@@ -328,18 +311,6 @@ a, button, .button {
     text-align: center;
     font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* 페이지네이션 */
@@ -483,4 +454,30 @@ ul[class], ol[class] {
     padding-right: 0.5em;
     text-align: center;
     font-size: 14px;
+}
+
+
+@media screen and (max-width : 1124px) { 
+    .notice{
+        width: 100%;
+    }   
+}
+
+
+@media screen and (max-width: 897px) {
+    .notice{
+        width: 100%;
+    }  
+    .bodycontainer{
+        margin-top: 32px;
+    }
+    .notice #title-h1{
+        font-size: 32px;
+    }
+    .contianer > .smallmenuBox, .smallmenuBox *{
+        display:none;
+    }
+    .button.button-board.is-black.is-outlined.is-mobile-hide{
+        display: none;
+    }
 }

@@ -497,7 +497,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination-fraction"><span class="index">1</span> / 6</div>
                     </div>
                     <!-- 투썸앱다운로드 -->
                     <div class="appdownload">
@@ -691,11 +692,32 @@
 
 <script src="../swiper/js/swiper.min.js"></script>
 <script>
+    // ###swiper js
     var swiper = new Swiper('.swiper-container', {
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      spaceBetween : 215,
+      pagination : {
+          el: ".swiper-pagination",
+          clickable: true
+      }, 
+      on: {
+            init: function() {
+                $('.swiper-slide').addClass('changed');
+                $('.swiper-pagination-fraction .index').text(this.realIndex + 1);
+            },
+            slideChangeTransitionStart: function() {
+                $('.swiper-slide').addClass('changing');
+                $('.swiper-slide').removeClass('changed');
+                $('.swiper-pagination-fraction .index').text(this.realIndex + 1);
+            },
+            slideChangeTransitionEnd: function() {
+                $('.swiper-slide').removeClass('changing');
+                $('.swiper-slide').addClass('changed');
+            }
+        },
     });
   </script>
 </html>

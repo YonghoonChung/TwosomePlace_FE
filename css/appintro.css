@@ -74,6 +74,7 @@
 /* 스와이프 섹션 */
 .bodycontainer > .swiper-container{
     overflow:visible;
+    width:100%;
 }
 .bodycontainer > .swiper-container, .swiper-container > .bodyArea2{
     display:inline-block;
@@ -133,6 +134,36 @@
     width:283px;
     margin-top:-48px;
     object-fit: contain;
+}
+/* pagination 디자인 속성 */
+.swiper-pagination-bullet{
+    margin-right: 8px !important;
+    width:10px;
+    height:10px;
+    opacity:0.15;
+    cursor:pointer;
+}
+.swiper-pagination{
+    width:fit-content !important;
+    margin-bottom: 78px;
+}
+.swiper-pagination-bullet-active{
+    background:#000 !important;
+    opacity:1;
+    width:20px !important;
+    border-radius: 10px;
+}
+.swiper-pagination-fraction{
+    position: absolute;
+    bottom:87px;
+    left:155px;
+    z-index: 100;
+    font-size: 16px;
+    color:#707070;
+}
+.swiper-pagination-fraction > span{
+    color:#000;
+    font-size: 18px;
 }
 
 /* 다운로드 섹션 */

@@ -190,6 +190,7 @@
 @media screen and (max-width : 1124px) {
     .main-content {
         padding-top : 65px;
+        
     }
     .main-content > .container > .bodycontainer{
         margin-top:24px;
@@ -393,4 +394,4 @@
     .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle > p {
         font-size: 18px;
     }
-}
+}  

@@ -33,9 +33,11 @@
 .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleSmallTxt span{
     color:#d50037;
 }
+.bodycontainer > .titleArea > .subtitleArea > .subtitleImg{
+    padding-top: 100px;
+}
 .bodycontainer > .titleArea > .subtitleArea > .subtitleImg img{
     vertical-align: middle;
-    /* 사진을 아래에 배치해야함 */
 }
 
 /* 6개 테이블이 있는 섹션 */
@@ -112,6 +114,9 @@
 .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP{
     font-weight: 100;
     margin-bottom: 80px;
+}
+.bodycontainer > .swiepr-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP > .onlyPad{
+    display:none;
 }
 .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartIconBox{
     display:flex;
@@ -194,3 +199,194 @@
     width:22px;
     height:24px;
 }
+
+/* =========반응형========= */
+@media screen and (max-width : 1024px) {
+    /* 소개 섹션 */
+    .bodycontainer > .titleArea > .subtitleArea {
+        justify-content: start;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent{
+        width:427px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleBigTxt{
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleTxt {
+        margin-bottom: 48px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleTxt > p{
+        font-size: 24px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleSmallTxt , .subtitleSmallTxt > span{
+        font-size: 16px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleImg {
+        width:427px;
+        margin-left: 44px;
+        padding-top: 70px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleImg > img{
+        width:427px;
+        object-fit: contain;
+    }
+    /* 바디섹션 */
+    .bodycontainer > .bodyArea1{
+        margin-top: 0px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .bodycontainer > .bodyArea1 > .category{
+        width:30%;
+        height: 338px;
+    }
+    .bodycontainer > .bodyArea1 > .category > dt{
+        font-size: 18px;
+    }
+    .bodycontainer > .bodyArea1 > .category > dl{
+        font-size: 16px;
+        word-break: keep-all;
+    }
+    .bodycontainer > .swiper-container, .swiper-container > .bodyArea2{
+        margin-bottom: 80px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum{
+        margin-top: 121px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumTitle {
+        font-size: 32px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP {
+        font-size: 16px;
+        margin-bottom: 56px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP br {
+        display: none;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP > .onlyPad {
+        display:block;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP .TSheartIconBox .TSiconP {
+        font-size: 18px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartIconBox > div {
+        margin-right: 16px;
+    }
+
+    /* 투썸앱다운로드 */
+    .bodycontainer > .appdownload{
+        width:910px;
+    }
+    .bodycontainer > .appdownload > .downloadTxt{
+        font-size: 24px;
+    }        
+    .bodycontainer > .appdownload > .applist{
+        width:438px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bodycontainer > .appdownload > .applist > .playstore, .applestore{
+        width: 179px;
+        height:64px;
+    }
+}
+
+@media screen and (max-width : 897px) {
+    /* 헤더섹션 */
+    .bodycontainer > .titleArea > .subtitleArea{
+        display:block;
+        width:100%;
+        padding: 0 32px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent {
+        width:100%;
+        height:auto;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleBigTxt {
+        font-size: 32px;
+        margin-bottom: 16px;
+
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleTxt{
+        margin-bottom: 32px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleTxt > p{
+        font-size: 20px;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleContent > .subtitleSmallTxt{
+        font-size: 16px;
+        color:#333;
+        width:100%;
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleImg{
+        width:100%;
+        padding:0;
+        margin:56px 0 0 0;   
+    }
+    .bodycontainer > .titleArea > .subtitleArea > .subtitleImg > img{
+        width:100%;
+    }
+
+    /* 바디섹션 */
+    .bodycontainer > .bodyArea1{
+        width:100%;
+        margin-top : 340px !important;
+        display:block !important;
+    }
+    .bodycontainer > .bodyArea1 > .category{
+        margin:0;
+        width:100%;
+        height:315px;
+        margin-bottom: 32px;
+    }
+    .bodycontainer > .bodyArea1 > .category img{
+        width:140px;
+        height:140px;
+        margin-bottom: 0;
+    }
+    .bodycontainer > .bodyArea1 > .category > dl{
+        color:#333;
+        font-size: 16px;
+    }
+    /* 슬라이드 섹션 */
+    .swiper-container, .swiper-container *{
+        visibility: hidden;
+    }
+
+    /* 다운로드 섹션 */
+    .bodycontainer > .appdownload{
+        display:block;
+        width:100%;
+        padding: 0 32px;
+    }
+    .bodycontainer > .appdownload > .downloadTxt{
+        font-size: 24px;
+        margin-bottom:32px;
+    }
+    .bodycontainer > .appdownload > .applist{
+        width:100%;
+        display:block;
+    }
+    .bodycontainer > .appdownload > .applist > .playstore{
+        width:100%;
+        height:48px;
+        margin-bottom: 16px;
+    }
+    .bodycontainer > .appdownload > .applist > .playstore > img{
+        margin-right: 16px;
+    }
+    .bodycontainer > .appdownload > .applist > .applestore{
+        width:100%;
+        height:48px;
+    }
+    .bodycontainer > .appdownload > .applist > .applestore > img{
+        margin-right: 16px;
+    }
+    .bodycontainer > .appdownload > .applist > .qrcode{
+        display:none;
+    }
+}
+
+

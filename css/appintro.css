@@ -170,6 +170,19 @@
     color:#000;
     font-size: 18px;
 }
+/* swiper-navigation 디자인속성 */
+.swiper-button-next, .swiper-button-prev{
+    display:none;
+    width:32px;
+    height:32px;
+    top: 224px;
+}
+.swiper-button-next{
+    background-image: url("../images/btn_next.jpg");
+}
+.swiper-button-prev{
+    background-image: url("../images/btn_prev.jpg");
+}
 
 /* 다운로드 섹션 */
 .bodycontainer > .appdownload{
@@ -351,8 +364,77 @@
         font-size: 16px;
     }
     /* 슬라이드 섹션 */
-    .swiper-container, .swiper-container *{
-        visibility: hidden;
+    .bodycontainer > .swiper-container{
+        width:100%;
+        margin-bottom: 64px;
+    }
+    .bodycontainer > .swiper-container, .swiper-container > .bodyArea2{
+        height:auto;
+        margin-bottom: 50px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartImg {
+        width:70%;
+        margin : 0 120px !important;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartImg img{
+        display: block;
+        width:100%;
+        height:1187px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP{
+        padding: 0 32px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartHeader *{
+        font-size: 16px;
+        margin-top: 70px;
+        margin-bottom: 16px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartHeader:not(span){
+        color:#333;
+        font-size: 16px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum{
+        margin-top: 40px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumTitle {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP{
+        font-size: 16px;
+        text-align: center;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartNum > .TSheartNumP br, .TSheartNumP .onlyPad{
+        display:none !important;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartIconBox {
+        display:inline-block;
+        width:100%;
+    }
+    .bodycontainer > .swiper-container > .bodyArea2 > .swiper-slide > .TSheartP > .TSheartIconBox > div{ 
+        float:left;
+        width:50%;
+        height:100px;
+        margin:0;
+        margin-bottom: 32px;
+    }
+
+    /* 스와이퍼 섹션 */
+    .swiper-pagination-fraction{
+        display:none;
+    }
+    .swiper-pagination{
+        width:100% !important;
+        margin-bottom: 20px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display:inline-block; 
+        /* ### */
     }
 
     /* 다운로드 섹션 */

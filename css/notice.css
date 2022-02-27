@@ -721,3 +721,219 @@ div.ui-bbs-view2 p.date{
     float: left;
 }
 
+@media screen and (max-width : 1124px) {
+     /* 공지사항 목록  */
+    .notice{
+        width: 100%;
+        margin-left: 50px;
+    }   
+    .seacrhbar-wrap{
+        width: 90%;
+    }
+    .ui-bbs-list {
+        margin: 32px 0;
+    }
+    .ui-bbs-list a .num {
+        width: 80px;
+        padding: 0 24px;
+    }
+    .ui-bbs-list a .subject {
+        font-size: 20px;
+    }
+
+    .ui-bbs-list a .num, 
+    .ui-bbs-list a .subject, 
+    .ui-bbs-list a .date {
+        height: 92px;
+    }
+
+    .ui-bbs-list a .date {
+        width: 130px;
+        padding: 0 24px;
+    }
+    /* 1번 공지사항 */
+    .ui-bbs-view .ui-bbs-content {
+        margin-top: 28px;
+        padding: 32px 0 48px 0;
+    }
+    .ui-bbs-view+.buttons {
+        margin: 48px auto;
+    }
+    /* 2번 공지사항 */
+    /* 3번 공지사항 */
+    .ui-bbs-nav {
+        margin-top: 56px;
+    }
+    .ui-bbs-nav dd a {
+        font-size: 18px;
+    }
+    .notice {
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 897px) {
+    /* 공지사항목록 */
+    .notice{
+        width: 100%;
+        /* margin-top: -179px; */
+        margin: -171px auto;
+        /* margin-left: 30px; */
+    }  
+    .notice .bodycontainer{
+        /* margin-top: 32px; */
+        width: 100%;
+        padding: 0 60px;
+    }
+    .notice #title-h1{
+        font-size: 32px;
+        margin-left: 30px;
+    }
+    .contianer > .smallmenuBox, .smallmenuBox *{
+        display:none;
+    }
+    .button.button-board.is-black.is-outlined.is-mobile-hide{
+        display: none;
+    }
+    .ui-bbs-list {
+        /* margin: 40px -32px 36px; */
+        display: block;
+        width: inherit;
+    }
+    .ui-bbs-list a {
+        display: block;
+        padding: 20px 0 ;
+        border-bottom: 1px solid #ebebeb;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .ui-bbs-list a .subject em {
+        display: inline;
+        word-break: break-all;
+        white-space: inherit;
+        font-size: 20px;
+    }
+    .ui-bbs-list a .subject {
+        display: inline;
+        padding: 0;
+        font-size: 18px;
+        border: none;
+        display: -webkit-box;
+        overflow: hidden;
+        word-break: break-all;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        max-height: 58px;
+    }
+    .ui-bbs-list a.is-notice .subject em:before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-top: -6px;
+        margin-right: 8px;
+        border-radius: 50%;
+        background-color: #d50037;
+        vertical-align: middle;
+    }
+    .ui-bbs-list a .num .bbs-notice {
+        display: none;
+    }
+    .ui-bbs-list a .num {
+        display: none;
+        padding: 0;
+        border: none;
+    }
+    .ui-bbs-list a .num, 
+    .ui-bbs-list a .subject, 
+    .ui-bbs-list a .date {
+        height: auto;
+    }
+
+    
+    .ui-bbs-list a .date {
+        display: block;
+        width: auto;
+        margin-top: 12px;
+        padding: 0;
+        border: none;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .search-board-wrap {
+        padding-left: 60px;
+    }
+    fieldset {
+        margin: -78px 0 -31px 0; 
+    }
+
+    .pagination-wrap {
+        margin: 100px auto;
+    }
+    /* 1번 공지사항 */
+    .ui-bbs-view .ui-bbs-content {
+        font-size: 14px;
+    }
+    .bodycontainer1{
+        /* margin-top: 32px; */
+        width: 100%;
+        /* padding: 0 60px; */
+    }
+    .ui-bbs-content, .ui-bbs-view{
+        width: 100%;
+    }
+    /* 2번 공지사항 */
+    /* 3번 공지사항 */
+    .bodycontainer2{
+        padding: 0 32px;
+    }
+
+    #title-h34{
+        font-size: 24px;
+        margin-top: 38px;
+    }
+    .ui-bbs-view2{
+        width: 100%;
+    }
+    .ui-bbs-content3 {
+        width: 100%;
+    }
+    .ui-bbs-nav dl:first-child {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .ui-bbs-nav dl {
+        display: block;
+        height: auto;
+        margin-top: 32px;
+        padding: 0;
+        padding-top: 32px;
+        border: none;
+        border-top: 1px solid #ebebeb;
+    }
+    .ui-bbs-nav dt {
+        font-size: 12px;
+    }
+    .ui-bbs-nav dd {
+        display: block !important;
+        width: 100% !important;
+        padding: 15px 0px !important;
+    }
+    .ui-bbs-nav dd a {
+        width: 100%;
+        margin: 8px 0 12px;
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .ui-bbs-nav-next #date {
+        font-size: 12px;
+        text-align: left;
+    }
+}

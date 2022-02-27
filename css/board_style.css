@@ -467,6 +467,8 @@ ul[class], ol[class] {
 @media screen and (max-width: 897px) {
     .notice{
         width: 100%;
+        margin-top: -130px;
+        /* margin-left: 30px; */
     }  
     .bodycontainer{
         margin-top: 32px;

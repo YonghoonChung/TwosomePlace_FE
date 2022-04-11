@@ -1,0 +1,201 @@
+@media screen and (max-width : 1124px){
+    .text_img{
+        padding-bottom: 80px;
+    }
+    .text_img .story_text{
+        flex-basis: 49%;
+        padding-right: 1vw;
+    }
+    .text_img .story_text dl dt{
+        font-size: 48px;
+    }
+    .text_img .story_text dl dd{
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    .text_img .story_text p{
+        font-size: 16px;
+        padding-right: 0;
+        margin-top: 48px;
+    }
+    .text_img .story_img{
+        flex-basis: 48%;
+        margin-left: 44px;
+    }
+    .special_coffee_list>li h4 {
+        padding:40px 0;
+        margin-bottom: 40px
+    }
+    .special_coffee_list>li h4 strong {
+        font-size:20px;
+        padding-top: 72px
+    }
+    .special_coffee_list>li h4 span {
+        font-size:14px;
+        margin-top: 6px
+    }
+    .special_coffee_list>li .content dt {
+        font-size:18px
+    }
+    .special_coffee_list>li .content dd {
+        font-size:14px;
+        margin-top: 6px;
+        padding: 0 24px
+    }
+    .special_coffee_list>li p{
+        font-size: 18px;
+        margin-top: 32px;
+    }
+    .special_coffee_list>li .check_list_1 li{
+        margin-top: 12px;
+    }
+    .special_coffee_list>li .check_list_1 li span{
+        font-size: 14px;
+    }
+    .special_coffee_list>li .check_list_2>li{
+        height:21px;
+        margin-top: 12px;
+    }
+    .special_coffee_list>li .check_list_2>li .check_container span{
+        font-size: 14px;
+    }
+    .special_coffee_list>li .check_list_2>li .check_container span{
+        font-size: 14px;
+    }
+    .special_coffee_list>li .origin{
+        margin: 32px 0 40px;
+    }
+    .special_coffee_list>li .origin dt{
+        font-size: 18px;
+    }
+    .special_coffee_list>li .origin dd{
+        font-size: 14px;
+        padding: 0 24px;
+        margin-top: 6pz;
+    }
+    .signature_list li dl{
+        margin-top: 16px;
+    }
+    .signature_list li dl dt{
+        font-size: 20px;
+    }
+    .signature_list li dl dd{
+        font-size: 14px;
+    }
+    .signature_list li .explain_text{
+        font-size: 14px;
+    }
+    .signature_list li .sub_text{
+        font-size: 12px;
+        margin-top: 12px;
+    } 
+
+}
+@media screen and (max-width: 897px){
+    .main-content{
+        padding-top:0;
+    }
+    .main-content > .container{
+        padding:0 0;
+    }
+    .smallmenuBox{
+        display:none;
+    }
+    .container {
+        padding:0 32px;
+    }
+    .title_h1 {
+        font-size:32px;
+    }
+    .title_h3{
+        font-size: 24px;
+    }
+    .text_img{
+        flex-direction:column-reverse;
+        margin: 0 -32px;
+        padding-bottom: 24px;
+        align-items: flex-start;
+    }
+    .text_img .story_text{
+        width:100%;
+        padding: 0 32px;
+        margin-top: -48px;
+        z-index: 1;
+    }
+    .text_img .story_text dl dt{
+        font-size: 32px;
+    }
+    .text_img .story_text dl dd{
+        font-size:20px;
+        margin-top: 16px;
+    }
+    .text_img .story_text p{
+        margin-top: 32px;
+    }
+    .text_img .story_img{
+        width:100%;
+        min-height: 100%;
+        margin: 0;
+    }
+    .text_img .story_img>img{
+        width: 100%;
+    }
+    .special_coffee_list{
+        display: block;
+        margin-top: 16px;
+    }
+    .special_coffee_list>li{
+        float: none;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+    .special_coffee_list>li:nth-child(n+2){
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    .special_coffee_list>li h4{
+        padding: 32px 0;
+        margin-bottom: 32px;
+    }
+    .special_coffee_list>li h4 strong {
+        font-size:18px
+    }
+    .special_coffee_list>li .content dt {
+        font-size:16px
+    }
+    .special_coffee_list>li .content dd {
+        margin-top:4px
+    }
+    .special_coffee_list>li p {
+        font-size:16px
+    }
+    .special_coffee_list>li .origin{
+        margin-bottom: 32px;
+    }
+    .special_coffee_list>li .origin dt{
+        font-size: 16px;
+    }
+    .signature_list li{
+        float: none;
+        width: 100%;
+    }
+    .signature_list li .story_img img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .signature_list li+li{
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    .signature_list li dl dt{
+        font-size: 18px;
+    }
+    .signature_list li .explain_text{
+        margin-top: 16px;
+    }
+    .signature_list li .sub_text{
+        margin-top: 8px;
+    }
+}

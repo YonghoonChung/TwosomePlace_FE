@@ -20,20 +20,19 @@
                 <div class="mainheader">
 
                     <!-- 로고 -->
-                    <div class="logoBox">
-                        <a href="../header.html" class="logo">A TWOSOME PLACE COFFEE & DESSERT</a>
-                    </div>
+                        <a href="../header.html" class="logoBox">A TWOSOME PLACE COFFEE & DESSERT</a>
+
 
                     <!-- 메뉴바 -->
                     <div class="menubarBox">
                         <nav class="menubar">
                             <ul class="menu">
                                 <li class="menuitem"><a href="#" class="item">투썸플레이스 소개</a></li>
-                                <li class="menuitem"><a href="../coffeStory/coffeeStory.html" class="item">메뉴이야기</a></li>
+                                <li class="menuitem"><a href="./coffeeStory.html" class="item">메뉴이야기</a></li>
                                 <li class="menuitem"><a href="../brands/brand_loasting.html" class="item">브랜드 지원</a></li>
                                 <li class="menuitem"><a href="#" class="item">투썸플레이스 앱 & 맴버십</a></li>
                                 <li class="menuitem"><a href="../store/gameng.html" class="item">가맹점 창업안내</a></li>
-                                <li class="menuitem"><a href="./notice.html" class="item">새소식 & 공지</a></li>
+                                <li class="menuitem"><a href="../announcement/notice.html" class="item">새소식 & 공지</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -71,9 +70,9 @@
 
                         <li class="submenuitemBox">
                             <ul class="submenuRow2">
-                                <li><a href="../coffeStory/coffeeStory.html" class="item">커피이야기</a></li>
-                                <li><a href="../coffeStory/desertStory.html" class="item">디저트이야기</a></li>
-                                <li><a href="../coffeStory/deliStory.html" class="item">델리이야기</a></li>
+                                <li><a href="./coffeeStory.html" class="item">커피이야기</a></li>
+                                <li><a href="./desertStory.html" class="item">디저트이야기</a></li>
+                                <li><a href="./deliStory.html" class="item">델리이야기</a></li>
                             </ul>
                         </li>
                         <li class="submenuitemBox">
@@ -106,8 +105,8 @@
                         </li>
                         <li class="submenuitemBox">
                             <ul class="submenuRow6">
-                                <li><a href="./notice.html" class="item">공지사항</a></li>
-                                <li><a href="./board.html" class="item">보도자료</a></li>
+                                <li><a href="../announcement/notice.html" class="item">공지사항</a></li>
+                                <li><a href="../announcement/board.html" class="item">보도자료</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -116,6 +115,7 @@
             </div>
 
         </header>
+
 
         <!-- 바디 -->
         <div class="main-content">
@@ -133,11 +133,11 @@
                 <p id="title-h1">보도자료</p>
                 
                 <div class="bodycontainer">
-                    <div class="seacrhbar-wrap">
+                    <!-- <div class="seacrhbar-wrap">
                         <div class="seacrhbar">
                             <select id="searchType">
-                                <option value="내용">내용</option>
                                 <option value="제목">제목</option>
+                                <option value="내용">내용</option>
                             </select>
                             <span class="search-board-input input">
                                 <input type="text" id="searchTxt" placeholder="검색어 입력">
@@ -147,6 +147,31 @@
                         <div class="no-data">
                             <p>검색 결과가 없습니다.</p>
                         </div>
+                    </div> -->
+                    <form action="/co/reportList.do" method="post" name="annoSearchF">
+                        <fieldset>
+                            <legend>검색</legend>
+                            <div class="ui-bbs-search">
+                                
+                                <div class="search-board-wrap">
+                                    <span class="search-board-select select">
+                                        <select name="searchType" id="searchType" title="검색 범위">
+                                            <option value="title" selected>제목</option>
+                                            <option value="content" >내용</option>
+                                        </select>
+                                    </span>
+                                    <span class="search-board-input input">
+                                        <input type="text" name="searchTxt" id="searchTxt" placeholder="검색어 입력" title="검색어 입력" value="">
+                                        <button type="submit" class="button-search"><i class="ico-search"></i><span class="sr-only">검색</span></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </fieldset>
+                         <!-- 페이징처리 -->
+                         <input type="hidden" name="nextPageNum" value="1"/>
+                    </form>
+                    <div class="no-data">
+                        <p>검색결과가 없습니다.</p>
                     </div>
                 </div>
             </div>
@@ -157,7 +182,7 @@
                         <i class="ico-angle-dd-left"></i>
                         <span class="sr-only">첫 페이지 목록</span>
                     </a>
-                    <a href="#" class="button button-board is-black is-outlined is-mobile-hide" style disabled>
+                    <a href="#" class="button button-board is-black is-outlined" style disabled>
                         <i class="ico-angle-left"></i>
                         <span class="sr-only">이전 페이지 목록</span>
                     </a>
@@ -181,7 +206,7 @@
         </div>
 
         <!-- 푸터 -->
-        <footer id="footer">
+        <footer id="footer" style="margin-top: 240px;">
             <div class="container">
                 <div class="footer_top">
                     <div class="footer_top_left">

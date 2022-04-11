@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>헤더파일</title>
 </head>
-<script scr=""></script>
+
 <link rel="stylesheet" href="../css/common_style.css">
 <link rel="stylesheet" href="../css/brand_style.css">
 
@@ -255,6 +255,7 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     $(function () {
         var rollHeader = 100;
@@ -275,6 +276,18 @@
         $(".headerBox").hover(function () {
             $(".submenubarBox").slideToggle(200);
         });
+    });
+    $(window).resize(function() {
+        let windowWidth = $( window ).width();
+        if(windowWidth < 1178) {
+            console.log(windowWidth);
+            $(".headerBox").off('mouseenter mouseleave');
+        }
+        else{
+            $(".headerBox").hover(function () {
+                $(".submenubarBox").slideToggle(200);
+            });
+        }
     });
 </script>
 
@@ -338,5 +351,5 @@
         $(pop2).css('display', 'none');
     }
 </script>
-
+<script src="../js/headerNowMenu.js"></script>
 </html>

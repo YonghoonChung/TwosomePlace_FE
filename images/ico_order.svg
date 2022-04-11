@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <style>
+            .cls-2{fill:#fff;stroke:#010101;stroke-width:2px}.cls-4{fill:#010101}.cls-5{stroke:none}.cls-6{fill:none}
+        </style>
+    </defs>
+    <g id="ico_order">
+        <g id="타원_132" class="cls-2" transform="translate(45 36)">
+            <circle cx="15" cy="15" r="15" class="cls-5"/>
+            <circle cx="15" cy="15" r="14" class="cls-6"/>
+        </g>
+        <g id="사각형_735" class="cls-2">
+            <path d="M17 0h18a17 17 0 0 1 17 17v19H0V17A17 17 0 0 1 17 0z" class="cls-5" transform="translate(34 72)"/>
+            <path d="M17 1h18a16 16 0 0 1 16 16v17a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V17A16 16 0 0 1 17 1z" class="cls-6" transform="translate(34 72)"/>
+        </g>
+        <g id="패스_2830" fill="#fff">
+            <path d="M2 28.58V1h29v23H6.777l-.29.278L2 28.581z" class="cls-5" transform="translate(81 14.075)"/>
+            <path fill="#010101" d="M3 2v24.236l2.794-2.68.58-.556H30V2H3M1 0h31v25H7.179L1 30.925V0z" transform="translate(81 14.075)"/>
+        </g>
+        <path id="사각형_736" d="M0 0H72V2H0z" class="cls-4" transform="translate(24 106)"/>
+        <circle id="타원_133" cx="1.5" cy="1.5" r="1.5" class="cls-4" transform="translate(89 25)"/>
+        <circle id="타원_134" cx="1.5" cy="1.5" r="1.5" class="cls-4" transform="translate(96 25)"/>
+        <circle id="타원_135" cx="1.5" cy="1.5" r="1.5" class="cls-4" transform="translate(103 25)"/>
+    </g>
+</svg>

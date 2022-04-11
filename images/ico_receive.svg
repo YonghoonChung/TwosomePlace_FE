@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_738" fill="#fff" stroke="#707070" d="M0 0H48V26H0z" transform="translate(753 860)"/>
+        </clipPath>
+        <style>
+            .cls-10{fill:none}.cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="ico_receive" transform="translate(-21.033 -16)">
+        <g id="ico" transform="translate(.533 -13)">
+            <g id="사각형_737" fill="#fff" stroke="#010101">
+                <path d="M0 0H54V2H0z" class="cls-9" transform="translate(53.5 79)"/>
+                <path d="M0.5 0.5H53.5V1.5H0.5z" class="cls-10" transform="translate(53.5 79)"/>
+            </g>
+            <g id="패스_2831" fill="#fff">
+                <path d="M34.14 45H7.86L1.163 1h39.672l-6.695 44z" class="cls-9" transform="translate(59.5 79)"/>
+                <path fill="#010101" d="M2.327 2L8.72 44H33.28l6.392-42H2.327M0 0h42l-7 46H7L0 0z" transform="translate(59.5 79)"/>
+            </g>
+            <g id="마스크_그룹_19" clip-path="url(#clip-path)" transform="translate(-696.5 -807)">
+                <g id="타원_136" fill="#fff" stroke="#010101" stroke-width="2px" transform="translate(754 862)">
+                    <circle cx="23" cy="23" r="23" class="cls-9"/>
+                    <circle cx="23" cy="23" r="22" class="cls-10"/>
+                </g>
+            </g>
+            <path id="패스_54" fill="none" stroke="#010101" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" d="M940.282 192.5h-8.525l-32.286 68.307" transform="translate(-832.84 -143.5)"/>
+            <path id="패스_2552" fill="none" stroke="#010101" stroke-linecap="round" stroke-width="2px" d="M48 76v5.431h72V76" transform="translate(-3.5 51.569)"/>
+        </g>
+    </g>
+</svg>

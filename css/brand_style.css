@@ -184,3 +184,214 @@
 .bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle p{
     font-size:24px;
 }
+
+
+/* ===============반응형 공통=============== */
+@media screen and (max-width : 1124px) {
+    .main-content {
+        padding-top : 65px;
+        
+    }
+    .main-content > .container > .bodycontainer{
+        margin-top:24px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .title{
+        font-size:56px;
+        margin-bottom:48px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .subtitle b{
+        font-size:48px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .titlecontent{
+        font-size: 24px;
+    }
+    /* ------Loasting------ */
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentP{
+        width:48%;
+        padding-top:120px;
+        padding-right: 40px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentImg{
+        width:48%;
+        height:auto;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentImg img{
+        max-width:100%;
+        height:auto;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentP{
+        width:48%;
+        padding-top:20px;
+        padding-left:30px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentImg{
+        width:48%;
+        height:auto;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentImg img{
+        max-width:100%;
+        height:auto;
+    }
+
+    /* ------dessert------ */
+    .main-content > .container > .bodycontainer > .titleArea > .titlecontent{
+        margin-bottom: 80px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaDessert > .contentP p{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaDessert {
+        margin-top : -36px;
+    }
+    
+    /* ------cnd------ */
+    .main-content > .container > .bodycontainer > .titleArea > .CDpic{
+        padding-top: 0 !important;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .subtitle .subsubtitle{
+        font-size: 20px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .titlecontent{
+        word-break: keep-all;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaTxt{
+        margin-bottom : 80px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaTxt p{
+        font-size: 16px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaCD > .contentP{
+        padding:0;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaCD > .contentP .bigtxt{
+        font-size: 20px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentP > p{
+        font-size: 16px;
+    }
+    /* ------sep------ */
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP{
+        padding-top:0;
+        padding-left:0;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contenttitle{
+        margin-bottom:24px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contenttitle p{
+        font-size: 24px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle{
+        margin-bottom:12px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle > p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 897px){
+    .main-content{
+        padding-top:0;
+    }
+    .main-content > .container{
+        padding:0 0;
+    }
+    .main-content > .contianer > .smallmenuBox, .smallmenuBox *{
+        display:none;
+    }
+    .main-content > .container > .bodycontainer {
+        margin-top: 20px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .title{
+        padding: 0 32px;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .subtitle {
+        margin-top:-28px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .subtitle b{
+        font-size: 32px;
+    }
+    /* ------loasting------ */
+    .main-content > .container > .bodycontainer > .titleArea > .titlecontent { 
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 61px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1{
+        margin-top: 380px;
+        display:flex;
+        flex-direction: column-reverse;
+        padding : 0 32px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentImg{
+        width : 100%;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentImg img{
+        width:100%;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentP{
+        padding:0;
+        width:100%;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea1 > .contentP p{
+        margin:12px 0;
+        font-size: 16px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2{
+        padding : 0 32px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentImg{
+        width : 100%;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentImg img{
+        width:100%;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentP{
+        width:100%;
+        padding:0;
+        margin-top: 32px;
+    }
+    .main-content > .container > .bodycontainer > .bodyArea2 > .contentP p{
+        margin-bottom: 12px;
+    }
+
+    /* ------dessert------ */
+    .main-content > .container > .bodycontainer > .bodyAreaDessert > .contentP p {
+        margin-bottom: 12px;
+    }
+    /* ------cnd------ */
+    .main-content > .container > .bodycontainer > .titleArea > .subtitle .subsubtitle{
+        font-size: 18px;
+    }
+    .main-content > .container > .bodycontainer > .titleArea > .subtitle .subsubtitle::before{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaTxt{
+        margin-top:-32px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaCD > .contentP .bigtxt {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaCD > .contentP p, .dot {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    /* ------sep------ */
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP {
+        margin-top: 24px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contenttitle p {
+        font-size: 20px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle+p {
+        margin-bottom: 24px;
+    }
+    .main-content > .container > .bodycontainer > .bodyAreaSEP > .contentP .contentsubtitle > p {
+        font-size: 18px;
+    }
+}  

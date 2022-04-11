@@ -1,12 +1,12 @@
 /* normalizing */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 *{
     margin:0;
     padding:0;
-    font-family: "맑은고딕";
     font-size:18px;
-    font-weight: bold;
-    letter-spacing: -0.1em;
+    font-weight: 600;
     box-sizing:border-box;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 html, body{
     width: 100%; 
@@ -23,7 +23,9 @@ body{
     overflow-x: hidden;
     overflow-y: visible;
 }
-
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -39,6 +41,8 @@ body{
     position:fixed;
     background:rgba(0,0,0,0);
     z-index: 999999;
+    transition-property: background-color;
+    transition-duration: 0.3s;
 }
 /* 로고 */
 .logoBox{
@@ -49,7 +53,6 @@ body{
     text-indent: -9999px;
     background: url("/images/logo_black.png") no-repeat center;
     background-position: 38% 50%;
-    cursor: pointer;
 }
 
 .headerBox.roll .menubarBox .menubar .menu .menuitem > a{
@@ -60,6 +63,8 @@ body{
     background: rgba(0,0,0, .8);
     -webkit-backdrop-filter: blur(4px) saturate(50%);
     backdrop-filter: blur(4px) saturate(50%);
+    transition-property: background-color;
+    transition-duration: 0.3s;
 }
 .headerBox.roll .logoBox{
     background-image: url("/images/logo_white.png");
@@ -107,10 +112,12 @@ body{
 
 /* 서브메뉴 */
 .submenubarBox{
-    display:none;
+    display:none; 
+    background-color: transparent;
 }
 .headerBox:hover{
     background-color:white;
+    transition-duration: 0.05s;
 }
 .headerBox:hover > .mainheader .menubarBox > .menubar > .menu .item{
     color:black;
@@ -123,6 +130,11 @@ body{
 }
 .headerBox:hover .submenubarBox{
     background-color: white;
+}
+.headerBox:not(:hover) .submenubarBox{
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    background-color: transparent;
 }
 .submenubarBox{
     margin-top:100px;
@@ -141,19 +153,19 @@ body{
     font-size : 16.5px;
 }
 .submenubarBox > .submenu > .submenuitemBox > .submenuRow1{
-    margin-right: 92px;
+    margin-right: 90px;
 }
 .submenubarBox > .submenu > .submenuitemBox > .submenuRow2{
-    margin-right: 60px;
+    margin-right: 55px;
 }
 .submenubarBox > .submenu > .submenuitemBox > .submenuRow3{
-    margin-right: 63px;
+    margin-right: 60px;
 }
 .submenubarBox > .submenu > .submenuitemBox > .submenuRow4{
     margin-right: 114px;
 }
 .submenubarBox > .submenu > .submenuitemBox > .submenuRow5{
-    margin-right: 44px;
+    margin-right: 40px;
 }
 .subsubmenu .item{
     color: rgb(161, 161, 161);
@@ -167,9 +179,10 @@ body{
     margin-bottom:22px;
 }
 footer{
+    max-width: 100%;
     background-color: #222;
     color: #fff;
-    margin-top: 200px;
+    margin-top: 40px;
     padding: 48px 0;
 }
 footer li{
@@ -258,7 +271,6 @@ footer li{
 }
 .footer_bottom_first{
     margin-bottom: 20px;
-    cursor: pointer;
 }
 .footer_bottom_first li{
     display: inline-block;
@@ -727,4 +739,137 @@ background-color: rgba(0,0,0,.2)
     font-size: 14px;
     margin-top: 16px;
     color: #707070;
+}
+
+
+/* ========================반응형======================== */
+/* header반응형 */
+@media screen and (max-width : 1630px){
+    .headerBox{
+        width:100%;
+    }
+    .headerBox > .mainheader > .logoBox{
+        width: 152px;
+        height:21px;
+        background-size: cover;
+        margin:41px 50PX 0 24px;
+    }
+    .headerBox > .mainheader > .menubarBox{
+        width:856px;
+        position: absolute;
+        left:23%;
+    }
+    .headerBox > .mainheader > .menubarBox > .menubar{
+        height : 100px;
+    }
+    .headerBox > .mainheader > .menubarBox .item{
+        font-size: 14px;
+    }
+    .headerBox > .mainheader > .menuBtnBox{
+        width:5%;
+        float:right;
+    }
+    .headerBox > .mainheader > .menuBtnBox > .menuBtn{
+        width:100%;
+        height:100%;
+    }
+    .headerBox > .mainheader > .menuBtnBox > .menuBtn img{
+        top:0;
+        left:0;
+        width: 24px;
+        height: 24px;
+        float:right;
+        margin : 38px 24px 0 0;
+    }
+    .submenubarBox{
+        margin-top:100px;
+        width:100%;
+        height: 320px;
+        width:100%;
+        padding-left: 23%;
+    }
+    .submenubarBox > .submenu > .submenuitemBox .item{
+        font-size : 14px;
+    }
+    .submenubarBox > .submenu > .submenuitemBox .subsubmenu .item{
+        font-size: 12px !important;
+    }
+    .submenubarBox > .submenu > .submenuitemBox > .submenuRow1{
+        margin-right: 72px;
+    }
+    .submenubarBox > .submenu > .submenuitemBox > .submenuRow2{
+        margin-right: 44px;
+    }
+    .submenubarBox > .submenu > .submenuitemBox > .submenuRow3{
+        margin-right: 45px;
+    }
+    .submenubarBox > .submenu > .submenuitemBox > .submenuRow4{
+        margin-right: 85px;
+    }
+    .submenubarBox > .submenu > .submenuitemBox > .submenuRow5{
+        margin-right: 30px;
+    }
+    #footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 1195px) {
+    .headerBox {
+        height:88px;
+    }
+    .headerBox > .mainheader .menubarBox, .submenubarBox > *{
+        display:none;
+    }
+    .headerBox.roll:hover {
+        /* 배경 반투명 */
+        background: rgba(0,0,0, .8);
+        -webkit-backdrop-filter: blur(4px) saturate(50%);
+        backdrop-filter: blur(4px) saturate(50%);
+    }
+    .headerBox.roll:hover .logoBox{
+        background-image: url("/images/logo_white.png");
+        z-index: 1000;
+    }
+    .headerBox.roll:hover .menuBtnBox img{
+        content: url("/images/ico_24_allmenu_white.png");
+    }
+
+    .headerBox > .mainheader > .logoBox {
+        width : 198px;
+        height: 27px;
+        background-size: cover;
+        margin: 31px 0 0 48px;
+    } 
+    .headerBox > .mainheader > .menuBtnBox{
+        float:right;
+    }
+    .headerBox > .mainheader > .menuBtnBox > .menuBtn img{
+        top:0;
+        margin-top : 38px;
+    }
+    .headerBox > .mainheader > .menuBtnBox > .menuBtn img{
+        width:22px;
+        height:22px;
+        margin: 33px 24px 0 0;
+    }
+}
+
+@media screen and (max-width: 897px){
+    .headerBox {
+        height: 56px !important;
+    }
+    .headerBox > .mainheader > .logoBox{
+        width: 140px;
+        height:19px;
+        margin:19px 0 0 32px;
+    }
+    .headerBox > .mainheader > .menuBtnBox{
+        height: 56px;
+    }
+    .headerBox > .mainheader > .menuBtnBox .menuBtn img{
+        width:22px;
+        height:22px;
+        margin: 17px 24px 0 0;
+    }
 }
